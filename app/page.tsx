@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { BenefitsSection } from "@/components/benefits-section"
 import { OutcomesSection } from "@/components/outcomes-section"
+import { FaqSection } from "@/components/faq-section"
 import { Activity, Heart, Monitor, Stethoscope } from "lucide-react"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -119,19 +121,24 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1">
-                        {/* Placeholder for an image or graphic */}
-                        <div className="bg-white p-8 rounded-2xl shadow-xl aspect-square flex items-center justify-center border">
-                           <div className="text-center space-y-4">
-                                <Stethoscope className="h-16 w-16 text-primary mx-auto opacity-20" />
-                                <p className="text-sm text-muted-foreground italic">"Over 170 million Americans are living with one or more chronic conditions..."</p>
-                                <p className="font-semibold text-primary">- CDC 2023</p>
-                           </div>
+                    <div className="flex-1 relative">
+                        <div className="bg-white p-2 rounded-2xl shadow-2xl border transform hover:scale-[1.02] transition-transform duration-500">
+                           <Image 
+                              src="/images/outcomes-dashboard.png" 
+                              alt="Clinical Outcomes Dashboard" 
+                              width={600} 
+                              height={600} 
+                              className="rounded-xl w-full h-auto"
+                           />
                         </div>
+                        {/* Decorative blob */}
+                        <div className="absolute -z-10 -bottom-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
                     </div>
                 </div>
              </div>
         </section>
+
+        <FaqSection />
 
         {/* CTA Section */}
         <section className="py-24 bg-primary text-primary-foreground overflow-hidden relative">
