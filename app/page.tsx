@@ -3,6 +3,7 @@ import { SiteFooter } from "@/components/site-footer"
 import { HeroSection } from "@/components/hero-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { BenefitsSection } from "@/components/benefits-section"
 import { Activity, Heart, Monitor, Stethoscope } from "lucide-react"
 
 export default function Home() {
@@ -81,6 +82,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <BenefitsSection />
 
         {/* Benefits Section - How it Works */}
         <section className="py-20 bg-muted/30">
