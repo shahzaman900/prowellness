@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/hero-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { BenefitsSection } from "@/components/benefits-section"
+import { OutcomesSection } from "@/components/outcomes-section"
 import { Activity, Heart, Monitor, Stethoscope } from "lucide-react"
 
 export default function Home() {
@@ -84,6 +85,8 @@ export default function Home() {
         </section>
 
         <BenefitsSection />
+
+        <OutcomesSection />
 
         {/* Benefits Section - How it Works */}
         <section className="py-20 bg-muted/30">
