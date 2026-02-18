@@ -61,7 +61,7 @@ export function SiteHeader() {
       <div className="container flex h-24 items-center mx-auto px-4">
         <Link href="/" className="mr-8 flex items-center space-x-2">
            <Image 
-              src="/images/logo.png" 
+              src="/prologo.png" 
               alt="ProWell Care Logo" 
               width={220} 
               height={50} 

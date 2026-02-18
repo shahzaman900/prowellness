@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Linkedin, Mail, MapPin, Phone, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -15,7 +16,16 @@ export function SiteFooter() {
           
           {/* Brand Column */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold !text-white font-sans tracking-tight">ProactiveWellness</h2>
+            <Link href="/" className="block">
+                <div className="relative h-12 w-48">
+                    <Image 
+                        src="/prologo.png" 
+                        alt="ProactiveWellness Logo" 
+                        fill
+                        className="object-contain object-left"
+                    />
+                </div>
+            </Link>
             <p className="text-gray-400 leading-relaxed text-sm max-w-xs">
               Empowering healthcare providers with data-driven, patient-centric technology. We combine expertise with a flexible model to help you focus on exceptional patient care.
             </p>
