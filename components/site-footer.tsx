@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Activity, Facebook, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 
 export function SiteFooter() {
@@ -8,8 +9,13 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-5 text-sm">
           <div className="col-span-1 md:col-span-2 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Activity className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">ProWell Care</span>
+               <Image 
+                  src="/images/logo.png" 
+                  alt="ProWell Care Logo" 
+                  width={150} 
+                  height={35} 
+                  className="h-8 w-auto object-contain"
+               />
             </div>
             <p className="text-muted-foreground mb-4 max-w-xs">
               Empowering healthcare providers with data-driven, patient-centric technology for better outcomes and revenue.
