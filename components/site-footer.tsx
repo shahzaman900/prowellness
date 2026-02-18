@@ -1,70 +1,104 @@
+"use client"
+
 import Link from "next/link"
-import Image from "next/image"
-import { Activity, Facebook, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+import { Facebook, Linkedin, Mail, MapPin, Phone, ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export function SiteFooter() {
   return (
-    <footer className="border-t bg-muted/40">
-      <div className="container mx-auto px-4 py-12 md:py-16 lg:py-20">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-5 text-sm">
-          <div className="col-span-1 md:col-span-2 lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-               <Image 
-                  src="/images/logo.png" 
-                  alt="ProWell Care Logo" 
-                  width={150} 
-                  height={35} 
-                  className="h-8 w-auto object-contain"
-               />
-            </div>
-            <p className="text-muted-foreground mb-4 max-w-xs">
-              Empowering healthcare providers with data-driven, patient-centric technology for better outcomes and revenue.
+    <footer className="bg-[#0b0d36] text-white pt-20 pb-10 border-t border-white/5">
+      <div className="container mx-auto px-4">
+        
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+          
+          {/* Brand Column */}
+          <div className="space-y-6">
+            <h2 className="text-2xl font-bold !text-white font-sans tracking-tight">ProactiveWellness</h2>
+            <p className="text-gray-400 leading-relaxed text-sm max-w-xs">
+              Empowering healthcare providers with data-driven, patient-centric technology. We combine expertise with a flexible model to help you focus on exceptional patient care.
             </p>
-            <div className="flex space-x-4">
-              <Link href="https://www.linkedin.com/company/proactivewellness" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
+            <div className="flex gap-4">
+               <Link 
+                  href="https://www.linkedin.com/company/proactivewellness" 
+                  target="_blank"
+                  className="bg-white/10 hover:bg-[#0077b5] p-2 rounded-full transition-colors duration-300"
+                  aria-label="LinkedIn"
+              >
+                  <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="https://www.facebook.com/proactivewellnesscare" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
+              <Link 
+                  href="https://www.facebook.com/proactivewellnesscare" 
+                  target="_blank"
+                  className="bg-white/10 hover:bg-[#1877F2] p-2 rounded-full transition-colors duration-300"
+                  aria-label="Facebook"
+              >
+                  <Facebook className="h-5 w-5" />
               </Link>
             </div>
           </div>
+
+          {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-foreground">Solutions</h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li><Link href="/rpm" className="hover:text-primary transition-colors">Remote Patient Monitoring</Link></li>
-              <li><Link href="/ccm" className="hover:text-primary transition-colors">Chronic Care Management</Link></li>
-              <li><Link href="/software" className="hover:text-primary transition-colors">Clinical Software</Link></li>
+            <h3 className=" font-semibold !text-white mb-6 text-lg">Solutions</h3>
+            <ul className="space-y-4 text-sm text-gray-400">
+              <li><Link href="/rpm" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Remote Patient Monitoring</Link></li>
+              <li><Link href="/ccm" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Chronic Care Management</Link></li>
+              <li><Link href="/software" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Clinical Software</Link></li>
+               <li><Link href="/programs/types" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Care Programs</Link></li>
             </ul>
           </div>
+
+          {/* Contact Info */}  
           <div>
-            <h3 className="font-semibold mb-4 text-foreground">Company</h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/news" className="hover:text-primary transition-colors">News & Updates</Link></li>
-              <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
-              <li><Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-semibold mb-4 text-foreground">Contact</h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li className="flex items-center space-x-2">
-                <Phone className="h-4 w-4" />
-                <a href="tel:9723273687" className="hover:text-primary transition-colors">(972) 327 3687</a>
+            <h3 className="!text-white font-semibold mb-6 text-lg">Contact</h3>
+            <ul className="space-y-4 text-sm text-gray-400">
+               <li className="flex items-start gap-3">
+                <Phone className="h-5 w-5 text-[#F36076] shrink-0" />
+                <span>(972) 327 3687</span>
               </li>
-              <li className="flex items-center space-x-2">
-                <Mail className="h-4 w-4" />
-                <a href="mailto:info@prowellcare.com" className="hover:text-primary transition-colors">info@prowellcare.com</a>
+              <li className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-[#F36076] shrink-0" />
+                <a href="mailto:info@prowellcare.com" className="hover:text-white transition-colors">info@prowellcare.com</a>
               </li>
-              {/* Add address if available in content, checking... */}
+              <li className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-[#F36076] shrink-0" />
+                <address className="not-italic">
+                  235 Park Ave.<br />
+                  Swarthmore, PA 19081
+                </address>
+              </li>
             </ul>
           </div>
+
+          {/* Newsletter / CTA */}
+          <div>
+            <h3 className="!text-white font-semibold mb-6 text-lg">Stay Updated</h3>
+            <p className="text-gray-400 text-sm mb-4">
+                Subscribe to our newsletter for the latest healthcare insights.
+            </p>
+            <div className="flex gap-2">
+                <Input 
+                    placeholder="Enter your email" 
+                    className="bg-white/5 border-white/10 text-white placeholder:text-gray-500 focus-visible:ring-[#F36076]" 
+                />
+                <Button className="bg-[#F36076] hover:bg-[#F36076]/90 text-white">
+                    Join
+                </Button>
+            </div>
+          </div>
+
         </div>
-        <div className="mt-12 border-t pt-8 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} ProWell Care. Powered by Cognitive Healthcare International.</p>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+          <p>© {new Date().getFullYear()} ProactiveWellness. Powered by Cognitive Healthcare International.</p>
+          <div className="flex gap-6">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/faqs" className="hover:text-white transition-colors">FAQs</Link>
+          </div>
         </div>
       </div>
     </footer>

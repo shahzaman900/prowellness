@@ -27,19 +27,18 @@ export function FaqSection() {
   ]
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 lg:py-32 bg-white">
       <div className="container px-4 mx-auto max-w-4xl">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 font-sans text-foreground">
+        <div className="text-left mb-12">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-6 font-sans text-[#121576]">
             Frequently Asked Questions
           </h2>
-          <div className="h-1 w-20 bg-primary mx-auto rounded-full" />
         </div>
 
-        <Accordion type="single" collapsible className="w-full space-y-4">
+        <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`} className="border rounded-lg px-6 bg-card">
-              <AccordionTrigger className="text-lg font-medium py-6 text-foreground hover:text-primary transition-colors hover:no-underline">
+            <AccordionItem key={index} value={`item-${index}`} className="border-b border-[#121576]/10 px-0">
+              <AccordionTrigger className="text-lg sm:text-xl font-medium py-6 text-[#121576] hover:text-[#F36076] transition-colors hover:no-underline text-left">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground pb-6 text-base leading-relaxed">

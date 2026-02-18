@@ -6,9 +6,13 @@ import { ComprehensiveSolutionsSection } from "@/components/home/comprehensive-s
 import { OutcomesSolutionsSection } from "@/components/home/outcomes-solutions-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { BenefitsSection } from "@/components/benefits-section"
+
 import { OutcomesSection } from "@/components/outcomes-section"
 import { FaqSection } from "@/components/faq-section"
+import { ComplianceSection } from "@/components/home/compliance-section"
+import { EhrIntegrationsSection } from "@/components/home/ehr-integrations-section"
+import { IntegratedRemoteSolutionsSection } from "@/components/home/integrated-remote-solutions-section"
+import { BlogSection } from "@/components/home/blog-section"
 import { CtaSection } from "@/components/cta-section"
 import { Activity, Heart, Monitor, Stethoscope } from "lucide-react"
 import Image from "next/image"
@@ -24,7 +28,7 @@ export default function Home() {
         <ComprehensiveSolutionsSection />
         <OutcomesSolutionsSection />
 
-        <BenefitsSection />
+
 
         <OutcomesSection />
 
@@ -77,6 +81,10 @@ export default function Home() {
         </section>
 
         <FaqSection />
+        <ComplianceSection />
+        <EhrIntegrationsSection />
+        <IntegratedRemoteSolutionsSection />
+        <BlogSection />
 
         <CtaSection />
       </main>
