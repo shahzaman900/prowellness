@@ -43,23 +43,23 @@ ListItem.displayName = "ListItem"
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center mx-auto px-4">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
+      <div className="container flex h-20 items-center mx-auto px-4">
         <Link href="/" className="mr-8 flex items-center space-x-2">
            <Image 
               src="/images/logo.png" 
               alt="ProWell Care Logo" 
-              width={180} 
-              height={40} 
-              className="h-10 w-auto object-contain"
+              width={200} 
+              height={45} 
+              className="h-12 w-auto object-contain"
               priority
            />
         </Link>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <nav className="flex items-center space-x-6 text-sm font-medium hidden md:flex">
+          <nav className="flex items-center space-x-8 text-sm font-bold uppercase tracking-wider hidden md:flex">
             <Link
               href="/"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="transition-colors hover:text-primary text-foreground"
             >
               Home
             </Link>
@@ -67,7 +67,7 @@ export function SiteHeader() {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground/60 hover:text-foreground/80 focus:bg-transparent h-auto py-0 px-0 text-sm font-medium">
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-primary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
                     How We Help
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -78,10 +78,10 @@ export function SiteHeader() {
                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-secondary to-accent p-6 no-underline outline-none focus:shadow-md"
                             href="/"
                           >
-                            <div className="mb-2 mt-4 text-lg font-medium text-white">
+                            <div className="mb-2 mt-4 text-lg font-medium text-white capitalize">
                               ProWell Care
                             </div>
-                            <p className="text-sm leading-tight text-white/90">
+                            <p className="text-sm leading-tight text-white/90 normal-case font-normal">
                               Comprehensive remote care solutions for modern practices.
                             </p>
                           </a>
@@ -103,7 +103,7 @@ export function SiteHeader() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground/60 hover:text-foreground/80 focus:bg-transparent h-auto py-0 px-0 text-sm font-medium">
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-primary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
                     Who We Serve
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -125,14 +125,14 @@ export function SiteHeader() {
 
             <Link
               href="/contact"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="transition-colors hover:text-primary text-foreground"
             >
               Contact
             </Link>
           </nav>
           <div className="flex items-center space-x-2">
-            <Button className="hidden md:flex">
-                Book Strategy Session
+            <Button className="hidden md:flex rounded-sm px-8 font-bold tracking-widest uppercase">
+                Request Demo
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
