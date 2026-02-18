@@ -97,6 +97,24 @@ export function SiteHeader() {
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground/60 hover:text-foreground/80 focus:bg-transparent h-auto py-0 px-0 text-sm font-medium">
+                    Who We Serve
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[600px] bg-white">
+                      <ListItem href="/programs/types" title="Care Programs by Types">
+                        Explore our comprehensive range of care models designed for diverse patient needs.
+                      </ListItem>
+                      <ListItem href="/programs/condition" title="Care Programs by Condition">
+                        Specialized management plans tailored for specific chronic conditions.
+                      </ListItem>
+                      <ListItem href="/programs/speciality" title="Care Programs by Speciality">
+                        Targeted solutions optimized for your specific medical specialty.
+                      </ListItem>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
 
