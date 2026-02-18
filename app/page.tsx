@@ -1,6 +1,9 @@
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { HeroSection } from "@/components/hero-section"
+import { PreventiveServicesSection } from "@/components/home/preventive-services-section"
+import { ComprehensiveSolutionsSection } from "@/components/home/comprehensive-solutions-section"
+import { OutcomesSolutionsSection } from "@/components/home/outcomes-solutions-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { BenefitsSection } from "@/components/benefits-section"
@@ -17,75 +20,9 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
 
-        {/* Value Proposition Section */}
-        <section className="py-20 lg:py-32 bg-background">
-          <div className="container px-4 mx-auto">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-                Revolutionizing Healthcare Through <span className="text-primary">Data-Driven Technology</span>
-              </h2>
-              <p className="text-lg text-muted-foreground">
-                Empower your practice with our remote patient monitoring (RPM) platform—designed to enhance clinical outcomes, improve operational efficiency, and generate consistent revenue.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Feature 1 */}
-              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                    <Activity className="h-6 w-6 text-primary" />
-                  </div>
-                  <CardTitle>Remote Patient Monitoring</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Continuous trend tracking for improved hypertension management to deliver actionable data.
-                  </p>
-                </CardContent>
-                <CardFooter>
-                  <Button variant="link" className="px-0 text-primary">Learn more &rarr;</Button>
-                </CardFooter>
-              </Card>
-
-              {/* Feature 2 */}
-              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
-                <CardHeader>
-                   <div className="h-12 w-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                    <Heart className="h-6 w-6 text-accent-foreground" />
-                  </div>
-                  <CardTitle>Chronic Care Management</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Personalized monthly care plans tailored for comprehensive health management and oversight.
-                  </p>
-                </CardContent>
-                <CardFooter>
-                  <Button variant="link" className="px-0 text-primary">Learn more &rarr;</Button>
-                </CardFooter>
-              </Card>
-
-               {/* Feature 3 */}
-               <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
-                <CardHeader>
-                   <div className="h-12 w-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
-                    <Monitor className="h-6 w-6 text-secondary-foreground" />
-                  </div>
-                  <CardTitle>Clinical Software</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Drive better outcomes, eliminate blind spots, and ensure revenue with our integrated software.
-                  </p>
-                </CardContent>
-                <CardFooter>
-                  <Button variant="link" className="px-0 text-primary">Learn more &rarr;</Button>
-                </CardFooter>
-              </Card>
-            </div>
-          </div>
-        </section>
+        <PreventiveServicesSection />
+        <ComprehensiveSolutionsSection />
+        <OutcomesSolutionsSection />
 
         <BenefitsSection />
 
