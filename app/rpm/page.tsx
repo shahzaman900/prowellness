@@ -1,6 +1,7 @@
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { PageHero } from "@/components/page-hero"
+import { CtaSection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { CheckCircle2, TrendingUp, Users, DollarSign, Stethoscope, ArrowRight } from "lucide-react"
@@ -223,21 +224,7 @@ export default function RPMPage() {
             </div>
         </section>
 
-        {/* Final CTA */}
-        <section className="py-20 lg:py-32 text-center container px-4 mx-auto">
-             <div className="max-w-3xl mx-auto space-y-8">
-                <h2 className="text-3xl font-bold tracking-tight md:text-5xl font-serif text-foreground">
-                    Ready to transform your practice?
-                </h2>
-                <p className="text-xl text-muted-foreground">
-                    Join the future of healthcare with ProWell Care's comprehensive RPM solutions.
-                </p>
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <Button size="lg" className="rounded-full px-8 h-12 text-base">Book a Strategy Session</Button>
-                    <Button variant="outline" size="lg" className="rounded-full px-8 h-12 text-base">Contact Sales</Button>
-                </div>
-             </div>
-        </section>
+        <CtaSection />
       </main>
       <SiteFooter />
     </div>

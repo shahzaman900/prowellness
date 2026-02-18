@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { BenefitsSection } from "@/components/benefits-section"
 import { OutcomesSection } from "@/components/outcomes-section"
 import { FaqSection } from "@/components/faq-section"
+import { CtaSection } from "@/components/cta-section"
 import { Activity, Heart, Monitor, Stethoscope } from "lucide-react"
 import Image from "next/image"
 
@@ -140,27 +141,7 @@ export default function Home() {
 
         <FaqSection />
 
-        {/* CTA Section */}
-        <section className="py-24 bg-primary text-primary-foreground overflow-hidden relative">
-            <div className="container px-4 mx-auto text-center relative z-10">
-                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6 text-white">Ready to elevate your patient care?</h2>
-                <p className="text-primary-foreground/90 max-w-2xl mx-auto mb-10 text-lg">
-                    Join healthcare providers across the country who are using ProWell Care to improve outcomes and revenue.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" variant="secondary" className="font-semibold text-primary">
-                        Book Strategy Session
-                    </Button>
-                    <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 hover:text-white">
-                        Contact Us
-                    </Button>
-                </div>
-            </div>
-            
-             {/* Background shapes */}
-             <div className="absolute -top-24 -left-24 w-64 h-64 rounded-full bg-white/10 blur-3xl"></div>
-             <div className="absolute -bottom-24 -right-24 w-64 h-64 rounded-full bg-white/10 blur-3xl"></div>
-        </section>
+        <CtaSection />
       </main>
       <SiteFooter />
     </div>

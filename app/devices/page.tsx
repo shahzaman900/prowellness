@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/accordion"
 import Image from "next/image"
 
+import { CtaSection } from "@/components/cta-section"
+
 export default function DevicesPage() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -212,25 +214,7 @@ export default function DevicesPage() {
         </section>
 
 
-        {/* Final CTA */}
-        <section className="py-20 lg:py-32 text-center container px-4 mx-auto bg-primary text-primary-foreground relative overflow-hidden">
-             <div className="max-w-3xl mx-auto space-y-8 relative z-10">
-                <h2 className="text-3xl font-bold tracking-tight md:text-5xl font-serif text-white">
-                    Equip your patients for success
-                </h2>
-                <p className="text-xl text-primary-foreground/90">
-                    Get started with our risk-free device program today.
-                </p>
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <Button size="lg" variant="secondary" className="rounded-full px-8 h-12 text-base font-semibold text-primary">
-                        Partner with ProWell
-                    </Button>
-                </div>
-             </div>
-             {/* Background shapes */}
-             <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-white/10 blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
-             <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full bg-white/10 blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
-        </section>
+        <CtaSection />
       </main>
       <SiteFooter />
     </div>
