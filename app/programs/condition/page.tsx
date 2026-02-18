@@ -17,7 +17,7 @@ export default function CareProgramsByConditionPage() {
       <SiteHeader />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative bg-secondary/30 py-20 lg:py-32 overflow-hidden">
+        <section className="relative bg-background py-20 lg:py-32 overflow-hidden">
           <div className="container px-4 mx-auto">
              <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="flex-1 text-center lg:text-left z-10">
