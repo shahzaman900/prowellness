@@ -65,9 +65,9 @@ export function SiteHeader() {
             </Link>
             
             <NavigationMenu>
-              <NavigationMenuList>
+              <NavigationMenuList className="space-x-8">
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-primary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
                     How We Help
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -103,7 +103,7 @@ export function SiteHeader() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-primary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-foreground hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
                     Who We Serve
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -122,10 +122,10 @@ export function SiteHeader() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-
+            
             <Link
               href="/contact"
-              className="transition-colors hover:text-primary text-foreground"
+              className="transition-colors hover:text-secondary text-foreground"
             >
               Contact
             </Link>
