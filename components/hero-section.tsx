@@ -1,9 +1,14 @@
-import { Search, ShieldCheck } from "lucide-react"
+"use client"
+
+import { useState } from "react"
+import { ShieldCheck } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import Image from "next/image"
+import { RequestDemoModal } from "@/components/request-demo-modal"
 
 export function HeroSection() {
+  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false)
+
   return (
     <section className="relative overflow-hidden bg-background pt-16 pb-24 lg:pt-32 lg:pb-40">
       <div className="container px-4 mx-auto relative z-10">
@@ -17,20 +22,16 @@ export function HeroSection() {
               Elevate your clinic’s reputation, results, and revenue by prioritizing proactive care management for chronic conditions through proven RPM and CCM programs.
             </p>
 
-            <div className="mx-auto lg:mx-0 max-w-md relative">
-              <div className="relative flex items-center w-full shadow-lg rounded-full bg-background p-2 ring-1 ring-black/5 focus-within:ring-2 focus-within:ring-primary transition-all">
-                <Search className="ml-4 h-6 w-6 text-muted-foreground shrink-0" />
-                <Input 
-                  type="text" 
-                  placeholder="What care program are you looking for?" 
-                  className="border-0 shadow-none focus-visible:ring-0 text-lg py-6 px-4 bg-transparent"
-                />
-                <Button size="lg" className="rounded-full px-8 text-base">
-                  Search
-                </Button>
-              </div>
-              <div className="mt-4 flex items-center justify-center lg:justify-start space-x-4 text-sm text-muted-foreground">
-                 <span className="font-semibold">Popular:</span>
+            <div className="mx-auto lg:mx-0 max-w-md relative flex flex-col items-center lg:items-start space-y-4">
+              <Button 
+                size="lg" 
+                onClick={() => setIsDemoModalOpen(true)}
+                className="rounded-full px-10 py-8 text-lg font-bold uppercase tracking-wider bg-secondary hover:bg-secondary/90 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+              >
+                Book My Free Strategy Session
+              </Button>
+              <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+                 <span className="font-semibold">Explore:</span>
                  <a href="/rpm" className="underline hover:text-primary transition-colors">RPM</a>
                  <a href="/ccm" className="underline hover:text-primary transition-colors">CCM</a>
                  <a href="/software" className="underline hover:text-primary transition-colors">Software</a>
@@ -67,6 +68,8 @@ export function HeroSection() {
       {/* Abstract Background Shapes */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-primary/5 blur-3xl -z-10 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-accent/10 blur-3xl -z-10 pointer-events-none"></div>
+
+      <RequestDemoModal isOpen={isDemoModalOpen} onOpenChange={setIsDemoModalOpen} />
     </section>
   )
 }
