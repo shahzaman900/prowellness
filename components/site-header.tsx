@@ -132,7 +132,7 @@ export function SiteHeader() {
                       <ListItem href="/programs/types" title="Care Programs by Types" icon={<FileText className="h-5 w-5" />}>
                         Explore our comprehensive range of care models designed for diverse patient needs.
                       </ListItem>
-                      <ListItem href="/programs/condition" title="Care Programs by Condition" icon={<Heart className="h-5 w-5" />}>
+                      <ListItem href="/programs/conditions" title="Care Programs by Condition" icon={<Heart className="h-5 w-5" />}>
                         Specialized management plans tailored for specific chronic conditions like Diabetes & COPD.
                       </ListItem>
                       <ListItem href="/programs/speciality" title="Care Programs by Speciality" icon={<Users className="h-5 w-5" />}>
