@@ -1,11 +1,21 @@
+import { PatientHeroSection } from "@/components/patients/hero-section"
+import { PatientServicesSection } from "@/components/patients/services-section"
+import { PatientWhyMattersSection } from "@/components/patients/why-matters-section"
+import { PatientHowItWorksSection } from "@/components/patients/how-it-works-section"
+import { PatientBenefitsSection } from "@/components/patients/benefits-section"
+import { PatientFaqSection } from "@/components/patients/faq-section"
+import { PatientCtaSection } from "@/components/patients/cta-section"
+
 export default function PatientsPage() {
   return (
-    <div className="container mx-auto px-4 py-24 text-center">
-      <h1 className="text-4xl font-bold text-[#121576] mb-4">Patient Care Center</h1>
-      <p className="text-xl text-muted-foreground">
-        Welcome to your dedicated patient resource center. <br/>
-        We are building tools to help you manage your health journey.
-      </p>
-    </div>
+    <>
+      <PatientHeroSection />
+      <PatientServicesSection />
+      <PatientWhyMattersSection />
+      <PatientHowItWorksSection />
+      <PatientBenefitsSection />
+      <PatientFaqSection />
+      <PatientCtaSection />
+    </>
   )
 }
