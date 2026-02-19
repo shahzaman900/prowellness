@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types";
+import type { NewsPost } from "@/lib/news/types"
 
 export const post: NewsPost = {
   slug: "understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension",
@@ -18,34 +18,67 @@ export const post: NewsPost = {
   content: [
     {
       type: "paragraph",
-      text: "Stroke is a leading cause of death worldwide, and early recognition is vital. The American Heart Association (AHA) emphasizes the F.A.S.T. acronym as a primary way to identify a stroke in progress.",
+      text: "Stroke is a leading cause of disability and death worldwide, and recognizing the signs early can save lives. The American Heart Association emphasizes the importance of knowing the warning signs of a stroke and taking immediate action.",
     },
     {
       type: "heading",
       level: 2,
-      text: "The F.A.S.T. Acronym",
+      text: "Recognizing the Signs of Stroke",
+    },
+    {
+      type: "paragraph",
+      text: "The AHA recommends remembering the acronym F.A.S.T. to quickly recognize and respond to the signs of a stroke:",
     },
     {
       type: "list",
+      ordered: false,
       items: [
-        "Face Drooping: Does one side of the face droop or feel numb?",
-        "Arm Weakness: Is one arm weak? Does it drift downward when raised?",
-        "Speech Difficulty: Is speech slurred or difficult to understand?",
-        "Time to Call 911: Call immediately if any signs appear, even if they go away.",
+        "Face Drooping: One side of the face may droop or feel numb. When asked to smile, the person's smile might appear uneven.",
+        "Arm Weakness: One arm may feel weak or numb. When asked to raise both arms, one arm may drift downward.",
+        "Speech Difficulty: Speech may be slurred or difficult to understand. When asked to repeat a simple sentence, the person may struggle to speak clearly.",
+        "Time to call 911: If someone shows any of these symptoms, even if they go away, call emergency services immediately and note the time when the symptoms first appeared.",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Other symptoms may include sudden numbness, confusion, trouble seeing, difficulty walking, dizziness, or a severe headache with no known cause.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "The Link to Hypertension",
+    },
+    {
+      type: "paragraph",
+      text: "Hypertension, or high blood pressure, is a significant risk factor for stroke. It can cause damage to the arteries, making them more susceptible to blockages or bursts, leading to ischemic or hemorrhagic strokes. Managing blood pressure is crucial in reducing the risk of stroke.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Prevention and Management",
+    },
+    {
+      type: "paragraph",
+      text: "Preventing stroke involves managing risk factors like hypertension. This includes:",
+    },
+    {
+      type: "list",
+      ordered: false,
+      items: [
+        "maintaining a healthy diet",
+        "regular exercise",
+        "quitting smoking",
+        "regular health check-ups to monitor blood pressure levels",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "The Hypertension Connection",
+      text: "Remote Patient Monitoring (RPM) Solutions by ProactiveWellness for Hypertension",
     },
     {
       type: "paragraph",
-      text: "High blood pressure is a significant risk factor for stroke, as it damages arteries and makes them susceptible to blockages. Managing BP through proactive solutions like Remote Patient Monitoring (RPM) is crucial for prevention.",
-    },
-    {
-      type: "paragraph",
-      text: "ProactiveWellness specializes in enhancing patient management for hypertension, helping providers reduce hospitalizations and maintain high patient satisfaction through accessible RPM services.",
+      text: "ProactiveWellness specializes in enhancing patient management for chronic conditions like hypertension through their comprehensive Remote Patient Monitoring (RPM) services. We offer a seamless integration of RPM into the workflows of busy family, internal, and cardiologist offices, ensuring that patients receive the best preventive care. With ProactiveWellness, healthcare providers can improve patient outcomes, reduce hospitalizations, and maintain high patient satisfaction. The program is designed to be easy to start with zero upfront costs and no staff burden, making it an accessible solution for practices looking to implement advanced preventive care services.",
     },
   ],
-};
+}

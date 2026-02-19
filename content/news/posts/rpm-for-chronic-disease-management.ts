@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types";
+import type { NewsPost } from "@/lib/news/types"
 
 export const post: NewsPost = {
   slug: "rpm-for-chronic-disease-management",
@@ -15,34 +15,54 @@ export const post: NewsPost = {
   sourceUrl: "https://prowellcare.com/rpm-for-chronic-disease-management/",
   content: [
     {
+      type: "heading",
+      level: 2,
+      text: "Introduction",
+    },
+    {
       type: "paragraph",
-      text: "Chronic diseases make it difficult for many Americans to maintain a healthy lifestyle. Remote Patient Monitoring (RPM) has emerged as a valuable tool for improving management, with strong support from the American Medical Association (AMA).",
+      text: "Chronic diseases affect millions of Americans, making it difficult to manage health conditions and maintain a healthy lifestyle. Fortunately, remote patient monitoring (RPM) has emerged as a valuable tool to improve the management of chronic diseases. The American Medical Association (AMA) recognizes the potential benefits of RPM and supports its integration into healthcare systems. This blog examines the benefits of RPM for chronic disease in the US market & AMA's stance on the tech.",
     },
     {
       type: "heading",
       level: 2,
-      text: "Core Benefits of RPM Integration",
+      text: "What is Remote Patient Monitoring?",
+    },
+    {
+      type: "paragraph",
+      text: "Remote patient monitoring is digital telehealth collecting health data from patients outside clinical settings. Patients can use a variety of devices to monitor their health, including wearables, smartphones, and other medical devices. RPM enables healthcare providers to remotely monitor their patients' health conditions and make data-driven decisions to improve their care.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Benefits of RPM for Chronic Disease Management",
     },
     {
       type: "list",
+      ordered: false,
       items: [
-        "Increased Engagement: Patients take an active role by tracking and sharing their own data.",
-        "Improved Quality of Care: Real-time monitoring allows for quick detection and response to health issues.",
-        "Cost-Effectiveness: Reduces hospitalizations and emergency room visits through early intervention.",
+        "Increased Patient Engagement: RPM promotes patient engagement by enabling patients to take an active role in their healthcare. Patients can track their health data, such as blood pressure, heart rate, and share it with their healthcare provider. This enables informed decisions and encourages patients to proactively manage their chronic conditions.",
+        "Improved Quality of Care: RPM allows healthcare providers to monitor their patients' health in real-time. This enables them to detect and respond to potential health issues quickly. This can result in early intervention, which can prevent complications and improve health outcomes.",
+        "Cost-Effective: RPM has the potential to reduce healthcare costs by reducing hospitalizations, emergency room visits, and other costly interventions. By remotely monitoring patients' health, healthcare providers can detect potential health issues early. This allows physicians to take action before they escalate into more serious health problems.",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "AMA Stance and Support",
+      text: "AMA's Support for RPM",
     },
     {
       type: "paragraph",
-      text: "The AMA recognizes the potential of RPM and recommends that healthcare providers adopt it to improve outcomes. They have even released a 'Remote Patient Monitoring Playbook' to guide practices in successful implementation.",
+      text: "The AMA recognizes the potential benefits of RPM for chronic disease management and supports its integration into healthcare systems. Recent policy states that AMA recommends healthcare providers to adopt RPM as part of their practice to improve patient care & outcomes. The American Medical Association Remote Patient Monitoring Playbook can be accessed from here: https://www.ama-assn.org/system/files/ama-remote-patient-monitoring-playbook.pdf",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Conclusion",
     },
     {
       type: "paragraph",
-      text: "As the industry evolves, RPM is poised to play an increasingly important role in managing chronic diseases and improving patient health across the United States.",
+      text: "Remote patient monitoring has emerged as a valuable tool for managing chronic diseases in the American market. RPM promotes patient engagement, improves the quality of care, and can be cost-effective. The AMA supports the integration of RPM into healthcare systems to improve patient care and outcomes. As the healthcare industry continues to evolve, RPM is poised to play an increasingly important role in managing chronic diseases and improving patient health.",
     },
   ],
-};
+}

@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types";
+import type { NewsPost } from "@/lib/news/types"
 
 export const post: NewsPost = {
   slug: "chi-rpm-announces-evolution-as-proactivewellness-care",
@@ -18,11 +18,20 @@ export const post: NewsPost = {
   content: [
     {
       type: "paragraph",
-      text: "Cognitive Healthcare International, a leading provider of remote patient monitoring solutions, announces its continued evolution as ‘ProactiveWellness Care’. DALLAS, TX, UNITED STATES, April 22, 2024 / EINPresswire.com / — Cognitive Healthcare International (CHI) RPM announces its continued evolution as ‘ProactiveWellness Care’.",
+      text: "Cognitive Healthcare International, a leading provider of remote patient monitoring solutions, announces its continued evolution as 'ProactiveWellness Care'.",
     },
     {
       type: "paragraph",
-      text: "This strategic rebranding underscores the company’s unwavering commitment to empowering healthcare providers with personalized and effective RPM solutions, promoting proactive patient wellness. Building on a legacy of excellence established by CHI RPM, this evolution signifies a renewed focus on patient-centric care.",
+      text: "DALLAS, TX, UNITED STATES, April 22, 2024 / EINPresswire.com / — Cognitive Healthcare International (CHI) RPM, a leading provider of remote patient monitoring (RPM) solutions, announces its continued evolution as 'ProactiveWellness Care'. This strategic rebranding underscores the company's unwavering commitment to empowering healthcare providers with personalized and effective RPM solutions, promoting proactive patient wellness.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Building on a Legacy of Excellence",
+    },
+    {
+      type: "paragraph",
+      text: "ProactiveWellness Care builds upon the strong foundation established by CHI RPM. This evolution signifies a renewed focus on patient-centric care, offering intuitive technology and streamlined workflows for providers of all sizes and patient populations.",
     },
     {
       type: "heading",
@@ -30,30 +39,26 @@ export const post: NewsPost = {
       text: "Personalized Care at the Forefront",
     },
     {
-      type: "quote",
-      text: "Our core mission remains unchanged. We are passionate about providing the most personalized RPM experience possible. Proactive Wellness Care allows us to further emphasize preventative care and empower healthcare providers to deliver data-driven care that helps improve patient outcomes.",
-      citation: "Rob Sanchez, Chief Business Development Officer",
-    },
-    {
       type: "paragraph",
-      text: "As part of its growth, ProactiveWellness Care is expanding into chronic care management (CCM) and remote therapeutic management (RTM) programs to address the movement towards preventative care. These programs aim to contain costs of preventable emergency department visits through proper management and medication adherence.",
+      text: "\"Our core mission remains unchanged,\" states Rob Sanchez, Chief Business Development Officer of ProactiveWellness Care. \"We are passionate about providing the most personalized RPM experience possible. Proactive Wellness Care allows us to further emphasize preventative care and empower healthcare providers, including Federally Qualified Health Clinics (FQHCs), to deliver data-driven care that helps improve patient outcomes. Given our growth, we are expanding into chronic care management and remote therapeutic management programs to address the direction of healthcare towards a more preventive approach. Our CCM programs will follow provider plans of care, and we look to help with medication adherence programs using RPM. This proactive strategy aims to contain the costs of costly ED visits, which are often preventable with proper management.\"",
     },
     {
       type: "heading",
       level: 2,
-      text: "Decades of Expertise",
+      text: "Decades of Expertise, Shaping the Future of RPM",
     },
     {
       type: "paragraph",
-      text: "ProactiveWellness Care is led by physicians and nurses with over 50 years of combined clinical experience and over 10 years in the remote monitoring space. This deep understanding positions the company to:",
+      text: "ProactiveWellness Care is led by physicians and nurses with over 50 years of combined clinical experience and over 10 years in the remote monitoring space. This deep understanding positions Proactive Wellness Care uniquely to:",
     },
     {
       type: "list",
+      ordered: false,
       items: [
-        "Develop tailored solutions for specific patient populations.",
-        "Provide evidence-based guidance for successful program implementation.",
-        "Anticipate and address evolving regulations and industry trends.",
-        "Navigate complex billing and reimbursement procedures.",
+        "Develop tailored solutions for specific patient populations and care settings.",
+        "Provide evidence-based guidance and support for successful program implementation.",
+        "Anticipate and address evolving regulations and industry trends, ensuring accessibility for all.",
+        "Extensive experience in navigating complex billing and reimbursement procedures to maximize program benefits for your practice.",
       ],
     },
     {
@@ -63,19 +68,20 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "ProactiveWellness Care offers a comprehensive solution for seamless integration with primary care practices. Key features include:",
+      text: "ProactiveWellness Care offers a comprehensive solution for seamless integration with primary care practices and the elimination of unnecessary overhead. Here are the key features that set Proactive Wellness Care apart:",
     },
     {
       type: "list",
+      ordered: false,
       items: [
-        "Effortless Implementation: Smooth integration with existing EHR systems.",
-        "Device Management: All necessary RPM devices provided and maintained.",
-        "Dedicated Clinical Support: RN-led clinical monitors manage patient data.",
+        "Effortless Implementation: Their in-house IT development team ensures a smooth integration with existing Electronic Health Record (EHR) systems, avoiding practice disruptions.",
+        "Device Management: Proactive Wellness Care provides all necessary RPM devices, removing the burden of procurement and maintenance from practices.",
+        "Dedicated Clinical Support: Their team of experienced, RN-led clinical monitors proactively manages patients' data, enabling practices to focus on delivering exceptional care.",
       ],
     },
     {
       type: "paragraph",
-      text: "This approach empowers practices to proactively manage chronic conditions, reduce hospital readmissions, and improve patient engagement without adding staff or incurring additional IT expenses.",
+      text: "This comprehensive approach empowers practices to proactively manage chronic conditions, even for complex patients, reduce hospital readmissions and healthcare costs, and improve patient engagement and satisfaction across all demographics. With ProactiveWellness, you can launch a successful RPM program without adding staff or incurring additional IT expenses.",
     },
     {
       type: "heading",
@@ -84,7 +90,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "Visit ProWellCare.com to learn more about the company's transformative approach to remote patient monitoring. Join their mission to shape the future of proactive care, where patients and providers thrive as a team.",
+      text: "Visit ProWellCare.com to learn more about the company's transformative approach to remote patient monitoring. Discover how you can set up an RPM program with no upfront costs and no additional staff burden. Join their mission to shape the future of proactive care, where patients and providers thrive as a team.",
     },
   ],
-};
+}
