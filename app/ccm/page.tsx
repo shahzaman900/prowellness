@@ -36,7 +36,7 @@ export default function CCMPage() {
                  <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="relative aspect-auto bg-background rounded-2xl overflow-hidden shadow-xl ring-1 ring-border group order-2 lg:order-1">
                         <Image 
-                          src="/images/ccm-care-plan.png" 
+                          src="/images/Gemini_Generated_Image_z5061yz5061yz506.png" 
                           alt="Personalized Digital Care Plan" 
                           width={800} 
                           height={600} 

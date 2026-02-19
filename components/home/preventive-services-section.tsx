@@ -43,7 +43,7 @@ export function PreventiveServicesSection() {
             {/* Main Generated Image */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-100 bg-white z-10">
                 <Image 
-                    src="/images/rpm-dashboard.png" 
+                    src="/images/Gemini_Generated_Image_ilmfhvilmfhvilmf.png" 
                     alt="Preventive Services Dashboard" 
                     width={800} 
                     height={600} 
