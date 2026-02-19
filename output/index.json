@@ -1,0 +1,895 @@
+[
+  {
+    "slug": "2026-medicare-final-rule-rpm-ccm",
+    "title": "Unlocking Revenue and Better Care: What the 2026 Medicare Final Rule Means for RPM and CCM",
+    "date": "2025-11-25",
+    "category": null,
+    "original_url": "https://prowellcare.com/2026-medicare-final-rule-rpm-ccm/",
+    "canonical_original_url": "https://prowellcare.com/2026-medicare-final-rule-rpm-ccm/",
+    "wayback_url": "http://web.archive.org/web/20251215142231/https://prowellcare.com/2026-medicare-final-rule-rpm-ccm/",
+    "wayback_url_used": "http://web.archive.org/web/20251215142231/https://prowellcare.com/2026-medicare-final-rule-rpm-ccm/",
+    "featured_image": null,
+    "body_text_path": "posts/2026-medicare-final-rule-rpm-ccm.md",
+    "body_html_path": "posts/2026-medicare-final-rule-rpm-ccm.html",
+    "capture_timestamp": "20251215142231",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/care-programs-by-condition/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/care-programs-by-speciality/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "No archived capture found via availability or CDX API"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/care-programs-by-specialty/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/care-programs-by-type/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": "chi-rpm-announces-evolution-as-proactivewellness-care",
+    "title": "CHI RPM Announces Evolution as ProactiveWellness Care, Emphasizing Personalized Remote Patient Monitoring for Prevention",
+    "date": "2024-04-23",
+    "category": null,
+    "original_url": "https://prowellcare.com/chi-rpm-announces-evolution-as-proactivewellness-care/",
+    "canonical_original_url": "https://prowellcare.com/chi-rpm-announces-evolution-as-proactivewellness-care/",
+    "wayback_url": "http://web.archive.org/web/20251015214219/https://prowellcare.com/chi-rpm-announces-evolution-as-proactivewellness-care/",
+    "wayback_url_used": "http://web.archive.org/web/20251015214219/https://prowellcare.com/chi-rpm-announces-evolution-as-proactivewellness-care/",
+    "featured_image": null,
+    "body_text_path": "posts/chi-rpm-announces-evolution-as-proactivewellness-care.md",
+    "body_html_path": "posts/chi-rpm-announces-evolution-as-proactivewellness-care.html",
+    "capture_timestamp": "20251015214219",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "choosing-the-right-rpm-device",
+    "title": "A Comprehensive Guide to Choosing the Right Remote Patient Monitoring Device",
+    "date": "2023-04-26",
+    "category": null,
+    "original_url": "https://prowellcare.com/choosing-the-right-rpm-device/",
+    "canonical_original_url": "https://prowellcare.com/choosing-the-right-rpm-device/",
+    "wayback_url": "http://web.archive.org/web/20251015202245/https://prowellcare.com/choosing-the-right-rpm-device/",
+    "wayback_url_used": "http://web.archive.org/web/20251015202245/https://prowellcare.com/choosing-the-right-rpm-device/",
+    "featured_image": null,
+    "body_text_path": "posts/choosing-the-right-rpm-device.md",
+    "body_html_path": "posts/choosing-the-right-rpm-device.html",
+    "capture_timestamp": "20251015202245",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "chronic-care-for-the-elderly",
+    "title": "Why Chronic Care Management (CCM) Is Important for People Over 65",
+    "date": "2025-01-01",
+    "category": null,
+    "original_url": "https://prowellcare.com/chronic-care-for-the-elderly/",
+    "canonical_original_url": "https://prowellcare.com/chronic-care-for-the-elderly/",
+    "wayback_url": "http://web.archive.org/web/20250908124012/https://prowellcare.com/chronic-care-for-the-elderly/",
+    "wayback_url_used": "http://web.archive.org/web/20250908124012/https://prowellcare.com/chronic-care-for-the-elderly/",
+    "featured_image": null,
+    "body_text_path": "posts/chronic-care-for-the-elderly.md",
+    "body_html_path": "posts/chronic-care-for-the-elderly.html",
+    "capture_timestamp": "20250908124012",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "chronic-care-management-and-caregivers",
+    "title": "Chronic Care Management: Empowering Family Caregivers with Technology",
+    "date": "2024-11-12",
+    "category": null,
+    "original_url": "https://prowellcare.com/chronic-care-management-and-caregivers/",
+    "canonical_original_url": "https://prowellcare.com/chronic-care-management-and-caregivers/",
+    "wayback_url": "http://web.archive.org/web/20251114214526/https://prowellcare.com/chronic-care-management-and-caregivers/",
+    "wayback_url_used": "http://web.archive.org/web/20251114214526/https://prowellcare.com/chronic-care-management-and-caregivers/",
+    "featured_image": null,
+    "body_text_path": "posts/chronic-care-management-and-caregivers.md",
+    "body_html_path": "posts/chronic-care-management-and-caregivers.html",
+    "capture_timestamp": "20251114214526",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/chronic-care-management/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/clinical-monitoring-software/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": "copd-and-rpm",
+    "title": "COPD: How Can RPM Help?",
+    "date": "2023-06-20",
+    "category": null,
+    "original_url": "https://prowellcare.com/copd-and-rpm/",
+    "canonical_original_url": "https://prowellcare.com/copd-and-rpm/",
+    "wayback_url": "http://web.archive.org/web/20251114210521/https://prowellcare.com/copd-and-rpm/",
+    "wayback_url_used": "http://web.archive.org/web/20251114210521/https://prowellcare.com/copd-and-rpm/",
+    "featured_image": null,
+    "body_text_path": "posts/copd-and-rpm.md",
+    "body_html_path": "posts/copd-and-rpm.html",
+    "capture_timestamp": "20251114210521",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "cut-hospital-readmission-with-rpm",
+    "title": "Reduce Hospital Readmissions with Remote Patient Monitoring – Here’s How!",
+    "date": "2023-04-19",
+    "category": null,
+    "original_url": "https://prowellcare.com/cut-hospital-readmission-with-rpm/",
+    "canonical_original_url": "https://prowellcare.com/cut-hospital-readmission-with-rpm/",
+    "wayback_url": "http://web.archive.org/web/20250908114800/https://prowellcare.com/cut-hospital-readmission-with-rpm/",
+    "wayback_url_used": "http://web.archive.org/web/20250908114800/https://prowellcare.com/cut-hospital-readmission-with-rpm/",
+    "featured_image": null,
+    "body_text_path": "posts/cut-hospital-readmission-with-rpm.md",
+    "body_html_path": "posts/cut-hospital-readmission-with-rpm.html",
+    "capture_timestamp": "20250908114800",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/faqs/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": "future-of-ccm-technology",
+    "title": "The Future of Chronic Care: How Technology is Transforming Healthcare Delivery",
+    "date": "2025-02-18",
+    "category": null,
+    "original_url": "https://prowellcare.com/future-of-ccm-technology/",
+    "canonical_original_url": "https://prowellcare.com/future-of-ccm-technology/",
+    "wayback_url": "http://web.archive.org/web/20251015215419/https://prowellcare.com/future-of-ccm-technology/",
+    "wayback_url_used": "http://web.archive.org/web/20251015215419/https://prowellcare.com/future-of-ccm-technology/",
+    "featured_image": null,
+    "body_text_path": "posts/future-of-ccm-technology.md",
+    "body_html_path": "posts/future-of-ccm-technology.html",
+    "capture_timestamp": "20251015215419",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "future-trends-of-rpm",
+    "title": "The Future of RPM: Trends to Watch",
+    "date": "2023-04-18",
+    "category": null,
+    "original_url": "https://prowellcare.com/future-trends-of-rpm/",
+    "canonical_original_url": "https://prowellcare.com/future-trends-of-rpm/",
+    "wayback_url": "http://web.archive.org/web/20250908122004/https://prowellcare.com/future-trends-of-rpm/",
+    "wayback_url_used": "http://web.archive.org/web/20250908122004/https://prowellcare.com/future-trends-of-rpm/",
+    "featured_image": null,
+    "body_text_path": "posts/future-trends-of-rpm.md",
+    "body_html_path": "posts/future-trends-of-rpm.html",
+    "capture_timestamp": "20250908122004",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "handwashing-awareness-week-impact-health",
+    "title": "National Handwashing Awareness Week: A Simple Act, Big Impact on Health",
+    "date": "2024-12-04",
+    "category": null,
+    "original_url": "https://prowellcare.com/handwashing-awareness-week-impact-health/",
+    "canonical_original_url": "https://prowellcare.com/handwashing-awareness-week-impact-health/",
+    "wayback_url": "http://web.archive.org/web/20250908121242/https://prowellcare.com/handwashing-awareness-week-impact-health/",
+    "wayback_url_used": "http://web.archive.org/web/20250908121242/https://prowellcare.com/handwashing-awareness-week-impact-health/",
+    "featured_image": null,
+    "body_text_path": "posts/handwashing-awareness-week-impact-health.md",
+    "body_html_path": "posts/handwashing-awareness-week-impact-health.html",
+    "capture_timestamp": "20250908121242",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "high-blood-pressure-and-dementia",
+    "title": "The Overlooked Link: How High Blood Pressure Fuels Dementia Risk",
+    "date": "2025-09-04",
+    "category": null,
+    "original_url": "https://prowellcare.com/high-blood-pressure-and-dementia/",
+    "canonical_original_url": "https://prowellcare.com/high-blood-pressure-and-dementia/",
+    "wayback_url": "http://web.archive.org/web/20260117133913/https://prowellcare.com/high-blood-pressure-and-dementia/",
+    "wayback_url_used": "http://web.archive.org/web/20260117133913/https://prowellcare.com/high-blood-pressure-and-dementia/",
+    "featured_image": null,
+    "body_text_path": "posts/high-blood-pressure-and-dementia.md",
+    "body_html_path": "posts/high-blood-pressure-and-dementia.html",
+    "capture_timestamp": "20260117133913",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity",
+    "title": "Prioritizing Patient Privacy & Cybersecurity in Remote Patient Monitoring",
+    "date": "2024-05-27",
+    "category": null,
+    "original_url": "https://prowellcare.com/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity/",
+    "canonical_original_url": "https://prowellcare.com/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity/",
+    "wayback_url": "http://web.archive.org/web/20251215140232/https://prowellcare.com/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity/",
+    "wayback_url_used": "http://web.archive.org/web/20251215140232/https://prowellcare.com/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity/",
+    "featured_image": null,
+    "body_text_path": "posts/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity.md",
+    "body_html_path": "posts/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity.html",
+    "capture_timestamp": "20251215140232",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "holiday-health-guide-for-chronic-conditions",
+    "title": "Enjoying the Holidays: A Comprehensive Guide for Patients Managing Chronic Conditions",
+    "date": "2024-11-25",
+    "category": null,
+    "original_url": "https://prowellcare.com/holiday-health-guide-for-chronic-conditions/",
+    "canonical_original_url": "https://prowellcare.com/holiday-health-guide-for-chronic-conditions/",
+    "wayback_url": "http://web.archive.org/web/20251114213412/https://prowellcare.com/holiday-health-guide-for-chronic-conditions/",
+    "wayback_url_used": "http://web.archive.org/web/20251114213412/https://prowellcare.com/holiday-health-guide-for-chronic-conditions/",
+    "featured_image": null,
+    "body_text_path": "posts/holiday-health-guide-for-chronic-conditions.md",
+    "body_html_path": "posts/holiday-health-guide-for-chronic-conditions.html",
+    "capture_timestamp": "20251114213412",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "honoring-veterans-remote-patient-monitoring",
+    "title": "Honoring Our Heroes: How Remote Patient Monitoring Supports Veterans’ Health",
+    "date": "2025-11-10",
+    "category": null,
+    "original_url": "https://prowellcare.com/honoring-veterans-remote-patient-monitoring/",
+    "canonical_original_url": "https://prowellcare.com/honoring-veterans-remote-patient-monitoring/",
+    "wayback_url": "http://web.archive.org/web/20251215132856/https://prowellcare.com/honoring-veterans-remote-patient-monitoring/",
+    "wayback_url_used": "http://web.archive.org/web/20251215132856/https://prowellcare.com/honoring-veterans-remote-patient-monitoring/",
+    "featured_image": null,
+    "body_text_path": "posts/honoring-veterans-remote-patient-monitoring.md",
+    "body_html_path": "posts/honoring-veterans-remote-patient-monitoring.html",
+    "capture_timestamp": "20251215132856",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "manage-your-patients-diabetes-with-rpm",
+    "title": "How ProactiveWellness Can Help Your Patients with Diabetes",
+    "date": "2023-06-08",
+    "category": null,
+    "original_url": "https://prowellcare.com/manage-your-patients-diabetes-with-rpm/",
+    "canonical_original_url": "https://prowellcare.com/manage-your-patients-diabetes-with-rpm/",
+    "wayback_url": "http://web.archive.org/web/20251215152844/https://prowellcare.com/manage-your-patients-diabetes-with-rpm/",
+    "wayback_url_used": "http://web.archive.org/web/20251215152844/https://prowellcare.com/manage-your-patients-diabetes-with-rpm/",
+    "featured_image": null,
+    "body_text_path": "posts/manage-your-patients-diabetes-with-rpm.md",
+    "body_html_path": "posts/manage-your-patients-diabetes-with-rpm.html",
+    "capture_timestamp": "20251215152844",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals",
+    "title": "New Year, New You? Ways Remote Patient Monitoring Can Help You Achieve Your Health Goals",
+    "date": "2024-01-04",
+    "category": null,
+    "original_url": "https://prowellcare.com/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals/",
+    "canonical_original_url": "https://prowellcare.com/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals/",
+    "wayback_url": "http://web.archive.org/web/20251015215347/https://prowellcare.com/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals/",
+    "wayback_url_used": "http://web.archive.org/web/20251015215347/https://prowellcare.com/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals/",
+    "featured_image": null,
+    "body_text_path": "posts/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals.md",
+    "body_html_path": "posts/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals.html",
+    "capture_timestamp": "20251015215347",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "privacy-security-and-autonomy",
+    "title": "The Ethics of Remote Patient Monitoring: Privacy, Security, and Patient Autonomy",
+    "date": "2023-05-15",
+    "category": null,
+    "original_url": "https://prowellcare.com/privacy-security-and-autonomy/",
+    "canonical_original_url": "https://prowellcare.com/privacy-security-and-autonomy/",
+    "wayback_url": "http://web.archive.org/web/20260117142215/https://prowellcare.com/privacy-security-and-autonomy/",
+    "wayback_url_used": "http://web.archive.org/web/20260117142215/https://prowellcare.com/privacy-security-and-autonomy/",
+    "featured_image": null,
+    "body_text_path": "posts/privacy-security-and-autonomy.md",
+    "body_html_path": "posts/privacy-security-and-autonomy.html",
+    "capture_timestamp": "20260117142215",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "ptsd-and-hypertension",
+    "title": "The Link Between PTSD and Hypertension: How ProactiveWellness Care Can Help",
+    "date": "2024-06-25",
+    "category": null,
+    "original_url": "https://prowellcare.com/ptsd-and-hypertension/",
+    "canonical_original_url": "https://prowellcare.com/ptsd-and-hypertension/",
+    "wayback_url": "http://web.archive.org/web/20251015204731/https://prowellcare.com/ptsd-and-hypertension/",
+    "wayback_url_used": "http://web.archive.org/web/20251015204731/https://prowellcare.com/ptsd-and-hypertension/",
+    "featured_image": null,
+    "body_text_path": "posts/ptsd-and-hypertension.md",
+    "body_html_path": "posts/ptsd-and-hypertension.html",
+    "capture_timestamp": "20251015204731",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "remote-hypertension-management-blood-pressure-control",
+    "title": "Remote Hypertension Management & Blood Pressure Control : Adapting to COVID-19",
+    "date": "2023-03-28",
+    "category": null,
+    "original_url": "https://prowellcare.com/remote-hypertension-management-blood-pressure-control/",
+    "canonical_original_url": "https://prowellcare.com/remote-hypertension-management-blood-pressure-control/",
+    "wayback_url": "http://web.archive.org/web/20250809234405/https://prowellcare.com/remote-hypertension-management-blood-pressure-control/",
+    "wayback_url_used": "http://web.archive.org/web/20250809234405/https://prowellcare.com/remote-hypertension-management-blood-pressure-control/",
+    "featured_image": null,
+    "body_text_path": "posts/remote-hypertension-management-blood-pressure-control.md",
+    "body_html_path": "posts/remote-hypertension-management-blood-pressure-control.html",
+    "capture_timestamp": "20250809234405",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "remote-patient-monitoring-chronic-conditions",
+    "title": "Remote Patient Monitoring: Managing Chronic Conditions In-Between Office Visits",
+    "date": "2024-09-27",
+    "category": null,
+    "original_url": "https://prowellcare.com/remote-patient-monitoring-chronic-conditions/",
+    "canonical_original_url": "https://prowellcare.com/remote-patient-monitoring-chronic-conditions/",
+    "wayback_url": "http://web.archive.org/web/20251215141616/https://prowellcare.com/remote-patient-monitoring-chronic-conditions/",
+    "wayback_url_used": "http://web.archive.org/web/20251215141616/https://prowellcare.com/remote-patient-monitoring-chronic-conditions/",
+    "featured_image": null,
+    "body_text_path": "posts/remote-patient-monitoring-chronic-conditions.md",
+    "body_html_path": "posts/remote-patient-monitoring-chronic-conditions.html",
+    "capture_timestamp": "20251215141616",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2",
+    "title": "Remote Patient Monitoring: Improving Patient Experience and Outcomes with a New Source of Revenue for Healthcare Providers",
+    "date": "2023-03-20",
+    "category": null,
+    "original_url": "https://prowellcare.com/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2/",
+    "canonical_original_url": "https://prowellcare.com/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2/",
+    "wayback_url": "http://web.archive.org/web/20251114214600/https://prowellcare.com/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2/",
+    "wayback_url_used": "http://web.archive.org/web/20251114214600/https://prowellcare.com/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2/",
+    "featured_image": "https://lh6.googleusercontent.com/HSpbDUVziZum0RfHBxQQO8_yn4D132Y0ON3Q-UrRe_Y-qsPJSsnkomXcG3wJi53ZRW_kLEqfGyrEugqhnH82lJnzlWIm6Eb2WJCAX_VDC9xmTmkgH_2YWIBV65a1Da7pxD81pOcuxVAH",
+    "body_text_path": "posts/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2.md",
+    "body_html_path": "posts/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2.html",
+    "capture_timestamp": "20251114214600",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "remote-patient-monitoring-independent-primary-care",
+    "title": "Revolutionizing Chronic Care: Top 3 Reasons Independent Primary Care Providers Should Embrace Remote Patient Monitoring",
+    "date": "2024-09-02",
+    "category": null,
+    "original_url": "https://prowellcare.com/remote-patient-monitoring-independent-primary-care/",
+    "canonical_original_url": "https://prowellcare.com/remote-patient-monitoring-independent-primary-care/",
+    "wayback_url": "http://web.archive.org/web/20251015213714/https://prowellcare.com/remote-patient-monitoring-independent-primary-care/",
+    "wayback_url_used": "http://web.archive.org/web/20251015213714/https://prowellcare.com/remote-patient-monitoring-independent-primary-care/",
+    "featured_image": null,
+    "body_text_path": "posts/remote-patient-monitoring-independent-primary-care.md",
+    "body_html_path": "posts/remote-patient-monitoring-independent-primary-care.html",
+    "capture_timestamp": "20251015213714",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": null,
+    "title": null,
+    "date": null,
+    "category": null,
+    "original_url": "https://prowellcare.com/remote-patient-monitoring/",
+    "canonical_original_url": null,
+    "wayback_url": null,
+    "wayback_url_used": null,
+    "featured_image": null,
+    "body_text_path": null,
+    "body_html_path": null,
+    "capture_timestamp": null,
+    "capture_source": null,
+    "status": "failed",
+    "errors": [
+      "'NoneType' object has no attribute 'get'"
+    ]
+  },
+  {
+    "slug": "role-of-rpm-in-preventive-care",
+    "title": "The Role of RPM in Preventive Care",
+    "date": "2023-05-23",
+    "category": null,
+    "original_url": "https://prowellcare.com/role-of-rpm-in-preventive-care/",
+    "canonical_original_url": "https://prowellcare.com/role-of-rpm-in-preventive-care/",
+    "wayback_url": "http://web.archive.org/web/20251114214937/https://prowellcare.com/role-of-rpm-in-preventive-care/",
+    "wayback_url_used": "http://web.archive.org/web/20251114214937/https://prowellcare.com/role-of-rpm-in-preventive-care/",
+    "featured_image": null,
+    "body_text_path": "posts/role-of-rpm-in-preventive-care.md",
+    "body_html_path": "posts/role-of-rpm-in-preventive-care.html",
+    "capture_timestamp": "20251114214937",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-changing-healthcare-delivery",
+    "title": "How Remote Patient Monitoring is Changing Healthcare Delivery",
+    "date": "2023-04-17",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-changing-healthcare-delivery/",
+    "canonical_original_url": "https://prowellcare.com/rpm-changing-healthcare-delivery/",
+    "wayback_url": "http://web.archive.org/web/20251114201657/https://prowellcare.com/rpm-changing-healthcare-delivery/",
+    "wayback_url_used": "http://web.archive.org/web/20251114201657/https://prowellcare.com/rpm-changing-healthcare-delivery/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-changing-healthcare-delivery.md",
+    "body_html_path": "posts/rpm-changing-healthcare-delivery.html",
+    "capture_timestamp": "20251114201657",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-codes-for-fqhcs-underserved-communities",
+    "title": "FQHCs Empowered with RPM Codes: Transforming Remote Patient Monitoring for Underserved Communities",
+    "date": "2025-05-19",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-codes-for-fqhcs-underserved-communities/",
+    "canonical_original_url": "https://prowellcare.com/rpm-codes-for-fqhcs-underserved-communities/",
+    "wayback_url": "http://web.archive.org/web/20251015211907/https://prowellcare.com/rpm-codes-for-fqhcs-underserved-communities/",
+    "wayback_url_used": "http://web.archive.org/web/20251015211907/https://prowellcare.com/rpm-codes-for-fqhcs-underserved-communities/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-codes-for-fqhcs-underserved-communities.md",
+    "body_html_path": "posts/rpm-codes-for-fqhcs-underserved-communities.html",
+    "capture_timestamp": "20251015211907",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-diagnose-reduce-white-coat-syndrome",
+    "title": "RPM & Reducing White Coat Syndrome",
+    "date": "2023-04-04",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-diagnose-reduce-white-coat-syndrome/",
+    "canonical_original_url": "https://prowellcare.com/rpm-diagnose-reduce-white-coat-syndrome/",
+    "wayback_url": "http://web.archive.org/web/20260117124016/https://prowellcare.com/rpm-diagnose-reduce-white-coat-syndrome/",
+    "wayback_url_used": "http://web.archive.org/web/20260117124016/https://prowellcare.com/rpm-diagnose-reduce-white-coat-syndrome/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-diagnose-reduce-white-coat-syndrome.md",
+    "body_html_path": "posts/rpm-diagnose-reduce-white-coat-syndrome.html",
+    "capture_timestamp": "20260117124016",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-for-chronic-disease-management",
+    "title": "The Benefits of RPM for Chronic Disease Management",
+    "date": "2023-04-10",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-for-chronic-disease-management/",
+    "canonical_original_url": "https://prowellcare.com/rpm-for-chronic-disease-management/",
+    "wayback_url": "http://web.archive.org/web/20260117135857/https://prowellcare.com/rpm-for-chronic-disease-management/",
+    "wayback_url_used": "http://web.archive.org/web/20260117135857/https://prowellcare.com/rpm-for-chronic-disease-management/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-for-chronic-disease-management.md",
+    "body_html_path": "posts/rpm-for-chronic-disease-management.html",
+    "capture_timestamp": "20260117135857",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-for-elderly-care",
+    "title": "Must Try Benefits of Remote Patient Monitoring for Elderly Care",
+    "date": "2023-05-05",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-for-elderly-care/",
+    "canonical_original_url": "https://prowellcare.com/rpm-for-elderly-care/",
+    "wayback_url": "http://web.archive.org/web/20251015203522/https://prowellcare.com/rpm-for-elderly-care/",
+    "wayback_url_used": "http://web.archive.org/web/20251015203522/https://prowellcare.com/rpm-for-elderly-care/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-for-elderly-care.md",
+    "body_html_path": "posts/rpm-for-elderly-care.html",
+    "capture_timestamp": "20251015203522",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-for-physicians-improved-outcomes-reduced-costs",
+    "title": "RPM for Physicians: Improved Outcomes & Reduced Costs",
+    "date": "2023-03-07",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-for-physicians-improved-outcomes-reduced-costs/",
+    "canonical_original_url": "https://prowellcare.com/rpm-for-physicians-improved-outcomes-reduced-costs/",
+    "wayback_url": "http://web.archive.org/web/20251215132040/https://prowellcare.com/rpm-for-physicians-improved-outcomes-reduced-costs/",
+    "wayback_url_used": "http://web.archive.org/web/20251215132040/https://prowellcare.com/rpm-for-physicians-improved-outcomes-reduced-costs/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-for-physicians-improved-outcomes-reduced-costs.md",
+    "body_html_path": "posts/rpm-for-physicians-improved-outcomes-reduced-costs.html",
+    "capture_timestamp": "20251215132040",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-shaping-america",
+    "title": "How Remote Patient Monitoring is Shaping the Healthcare of USA",
+    "date": "2023-12-05",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-shaping-america/",
+    "canonical_original_url": "https://prowellcare.com/rpm-shaping-america/",
+    "wayback_url": "http://web.archive.org/web/20260117122707/https://prowellcare.com/rpm-shaping-america/",
+    "wayback_url_used": "http://web.archive.org/web/20260117122707/https://prowellcare.com/rpm-shaping-america/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-shaping-america.md",
+    "body_html_path": "posts/rpm-shaping-america.html",
+    "capture_timestamp": "20260117122707",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-solve-the-healthcare-workforce-shortage",
+    "title": "How Remote Patient Monitoring Can Solve The Healthcare Workforce Shortage",
+    "date": "2023-07-03",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-solve-the-healthcare-workforce-shortage/",
+    "canonical_original_url": "https://prowellcare.com/rpm-solve-the-healthcare-workforce-shortage/",
+    "wayback_url": "http://web.archive.org/web/20251015210538/https://prowellcare.com/rpm-solve-the-healthcare-workforce-shortage/",
+    "wayback_url_used": "http://web.archive.org/web/20251015210538/https://prowellcare.com/rpm-solve-the-healthcare-workforce-shortage/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-solve-the-healthcare-workforce-shortage.md",
+    "body_html_path": "posts/rpm-solve-the-healthcare-workforce-shortage.html",
+    "capture_timestamp": "20251015210538",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-step-by-step-guide",
+    "title": "How to Get Started with Remote Patient Monitoring: A Step-by-Step Guide",
+    "date": "2023-05-09",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-step-by-step-guide/",
+    "canonical_original_url": "https://prowellcare.com/rpm-step-by-step-guide/",
+    "wayback_url": "https://web.archive.org/web/20251114212912/https://prowellcare.com/rpm-step-by-step-guide/",
+    "wayback_url_used": "https://web.archive.org/web/20251114212912/https://prowellcare.com/rpm-step-by-step-guide/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-step-by-step-guide.md",
+    "body_html_path": "posts/rpm-step-by-step-guide.html",
+    "capture_timestamp": "20251114212912",
+    "capture_source": "cdx",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "rpm-the-future-of-healthcare",
+    "title": "RPM & The Future of Healthcare",
+    "date": "2023-03-01",
+    "category": null,
+    "original_url": "https://prowellcare.com/rpm-the-future-of-healthcare/",
+    "canonical_original_url": "https://prowellcare.com/rpm-the-future-of-healthcare/",
+    "wayback_url": "http://web.archive.org/web/20260117122423/https://prowellcare.com/rpm-the-future-of-healthcare/",
+    "wayback_url_used": "http://web.archive.org/web/20260117122423/https://prowellcare.com/rpm-the-future-of-healthcare/",
+    "featured_image": null,
+    "body_text_path": "posts/rpm-the-future-of-healthcare.md",
+    "body_html_path": "posts/rpm-the-future-of-healthcare.html",
+    "capture_timestamp": "20260117122423",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "save-billions-in-healthcare",
+    "title": "How Remote Patient Monitoring Can Help Reduce Hospital Readmissions",
+    "date": "2023-04-26",
+    "category": null,
+    "original_url": "https://prowellcare.com/save-billions-in-healthcare/",
+    "canonical_original_url": "https://prowellcare.com/save-billions-in-healthcare/",
+    "wayback_url": "http://web.archive.org/web/20251215152647/https://prowellcare.com/save-billions-in-healthcare/",
+    "wayback_url_used": "http://web.archive.org/web/20251215152647/https://prowellcare.com/save-billions-in-healthcare/",
+    "featured_image": null,
+    "body_text_path": "posts/save-billions-in-healthcare.md",
+    "body_html_path": "posts/save-billions-in-healthcare.html",
+    "capture_timestamp": "20251215152647",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "simplify-remote-patient-monitoring-webinar",
+    "title": "How to Simplify RPM for Your Medical Practice: Webinar Recap",
+    "date": "2024-08-27",
+    "category": null,
+    "original_url": "https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
+    "canonical_original_url": "https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
+    "wayback_url": "http://web.archive.org/web/20251114211015/https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
+    "wayback_url_used": "http://web.archive.org/web/20251114211015/https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
+    "featured_image": null,
+    "body_text_path": "posts/simplify-remote-patient-monitoring-webinar.md",
+    "body_html_path": "posts/simplify-remote-patient-monitoring-webinar.html",
+    "capture_timestamp": "20251114211015",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "technology-in-chronic-care-management",
+    "title": "The Role of Technology in Chronic Care Management: Empowering Better Patient Care",
+    "date": "2025-01-01",
+    "category": null,
+    "original_url": "https://prowellcare.com/technology-in-chronic-care-management/",
+    "canonical_original_url": "https://prowellcare.com/technology-in-chronic-care-management/",
+    "wayback_url": "http://web.archive.org/web/20251215143458/https://prowellcare.com/technology-in-chronic-care-management/",
+    "wayback_url_used": "http://web.archive.org/web/20251215143458/https://prowellcare.com/technology-in-chronic-care-management/",
+    "featured_image": null,
+    "body_text_path": "posts/technology-in-chronic-care-management.md",
+    "body_html_path": "posts/technology-in-chronic-care-management.html",
+    "capture_timestamp": "20251215143458",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "the-impact-of-telemonitoring-for-diabetes-type-2",
+    "title": "Telemonitoring Revives Diabetes Care for Lost Patients: UAE Study Finds Success",
+    "date": "2023-03-07",
+    "category": null,
+    "original_url": "https://prowellcare.com/the-impact-of-telemonitoring-for-diabetes-type-2/",
+    "canonical_original_url": "https://prowellcare.com/the-impact-of-telemonitoring-for-diabetes-type-2/",
+    "wayback_url": "http://web.archive.org/web/20251015200206/https://prowellcare.com/the-impact-of-telemonitoring-for-diabetes-type-2/",
+    "wayback_url_used": "http://web.archive.org/web/20251015200206/https://prowellcare.com/the-impact-of-telemonitoring-for-diabetes-type-2/",
+    "featured_image": null,
+    "body_text_path": "posts/the-impact-of-telemonitoring-for-diabetes-type-2.md",
+    "body_html_path": "posts/the-impact-of-telemonitoring-for-diabetes-type-2.html",
+    "capture_timestamp": "20251015200206",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension",
+    "title": "Understanding Stroke: Recognizing the Signs and the Link to Hypertension",
+    "date": "2024-04-24",
+    "category": null,
+    "original_url": "https://prowellcare.com/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension/",
+    "canonical_original_url": "https://prowellcare.com/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension/",
+    "wayback_url": "http://web.archive.org/web/20251114201622/https://prowellcare.com/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension/",
+    "wayback_url_used": "http://web.archive.org/web/20251114201622/https://prowellcare.com/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension/",
+    "featured_image": null,
+    "body_text_path": "posts/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension.md",
+    "body_html_path": "posts/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension.html",
+    "capture_timestamp": "20251114201622",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  },
+  {
+    "slug": "why-integrate-ccm-rpm",
+    "title": "Why Providers Should Consider Integrating CCM and RPM",
+    "date": "2025-07-07",
+    "category": null,
+    "original_url": "https://prowellcare.com/why-integrate-ccm-rpm/",
+    "canonical_original_url": "https://prowellcare.com/why-integrate-ccm-rpm/",
+    "wayback_url": "http://web.archive.org/web/20251015212732/https://prowellcare.com/why-integrate-ccm-rpm/",
+    "wayback_url_used": "http://web.archive.org/web/20251015212732/https://prowellcare.com/why-integrate-ccm-rpm/",
+    "featured_image": null,
+    "body_text_path": "posts/why-integrate-ccm-rpm.md",
+    "body_html_path": "posts/why-integrate-ccm-rpm.html",
+    "capture_timestamp": "20251015212732",
+    "capture_source": "availability",
+    "status": "ok",
+    "warnings": [
+      "used readability fallback for main content"
+    ]
+  }
+]
