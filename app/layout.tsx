@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { RoleSelectionModal } from "@/components/role-selection-modal";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -44,6 +45,7 @@ export default function RootLayout({
             gtag('config', 'G-ZK7B3VN3RZ');
           `}
         </Script>
+        <RoleSelectionModal />
         {children}
       </body>
     </html>
