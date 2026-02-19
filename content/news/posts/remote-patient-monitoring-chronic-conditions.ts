@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "remote-patient-monitoring-chronic-conditions",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/software-dashboard.png",
   coverImageAlt:
     "Managing chronic conditions with remote patient monitoring between clinical visits",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/remote-patient-monitoring-chronic-conditions/",
@@ -106,4 +106,4 @@ export const post: NewsPost = {
       text: "For more detailed information, follow the link below to enhance your knowledge and take your patient care to the next level! View our webinar here: visit www.prowellcare.com to learn more about how RPM can benefit you and your patients.",
     },
   ],
-}
+};

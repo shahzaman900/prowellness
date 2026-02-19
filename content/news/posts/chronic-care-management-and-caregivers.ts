@@ -12,10 +12,10 @@ export const post: NewsPost = {
   coverImage: "/images/ccm-care-plan.png",
   coverImageAlt:
     "Family caregiver using technology for chronic care management",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/chronic-care-management-and-caregivers/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "Caring for a loved one with a chronic condition can be both rewarding and challenging. Family caregivers often find themselves juggling multiple responsibilities, from managing medications to coordinating doctor visits, all while trying to maintain their own well-being. Fortunately, Chronic Care Management (CCM) programs, supported by advanced technology, are here to help. These programs offer invaluable resources and support, making it easier for caregivers to provide the best possible care for their loved ones.",

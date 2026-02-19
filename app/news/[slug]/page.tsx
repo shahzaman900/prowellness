@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: NewsPostPageProps): Promise<M
 
   if (!post) {
     return {
-      title: "News Article Not Found | ProWell Care",
+      title: "News Article Not Found | ProactiveWellness Care",
     }
   }
 
   return {
-    title: `${post.title} | ProWell Care News`,
+    title: `${post.title} | ProactiveWellness Care News`,
     description: post.excerpt,
   }
 }

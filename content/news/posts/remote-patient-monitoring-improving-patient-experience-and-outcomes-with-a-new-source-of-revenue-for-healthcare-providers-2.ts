@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/software-dashboard.png",
   coverImageAlt:
     "Patient experience and revenue growth with remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/remote-patient-monitoring-improving-patient-experience-and-outcomes-with-a-new-source-of-revenue-for-healthcare-providers-2/",
@@ -37,7 +37,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "With the spread of \"consumerism\" in healthcare, convenience and easy access to care has become an important differentiating factor for patients, when it comes to choosing their providers. RPM provides patients with the care and support they need in the comfort of their own homes. It is particularly useful for those with chronic conditions (e.g., diabetes, congestive heart failure, COPD), those transitioning from acute or post-acute care facilities to home, and those who may qualify for \"hospital-at-home\" care.",
+      text: 'With the spread of "consumerism" in healthcare, convenience and easy access to care has become an important differentiating factor for patients, when it comes to choosing their providers. RPM provides patients with the care and support they need in the comfort of their own homes. It is particularly useful for those with chronic conditions (e.g., diabetes, congestive heart failure, COPD), those transitioning from acute or post-acute care facilities to home, and those who may qualify for "hospital-at-home" care.',
     },
     {
       type: "paragraph",
@@ -62,7 +62,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "We talked with ACHE member, Melinda Schmidt, MBA, BSN, RN, about her experience with RPM, having spent many years in the industry. She offered this great example of how RPM can prevent the spread of illnesses and potentially improve outcomes, \"When I worked as a triage nurse in a busy hospital emergency department in the winter of 2009, a mother came in with her week-old newborn boy who had a new rash on his arm. She was unaware that over 200 people were waiting to be examined for H1N1, RSV, and Influenza in the crowded waiting area. H1N1 of 2009 was our first pandemic in more than 40 years and was causing mayhem in the healthcare system as many ERs were overflowing with patients.",
+      text: 'We talked with ACHE member, Melinda Schmidt, MBA, BSN, RN, about her experience with RPM, having spent many years in the industry. She offered this great example of how RPM can prevent the spread of illnesses and potentially improve outcomes, "When I worked as a triage nurse in a busy hospital emergency department in the winter of 2009, a mother came in with her week-old newborn boy who had a new rash on his arm. She was unaware that over 200 people were waiting to be examined for H1N1, RSV, and Influenza in the crowded waiting area. H1N1 of 2009 was our first pandemic in more than 40 years and was causing mayhem in the healthcare system as many ERs were overflowing with patients.',
     },
     {
       type: "paragraph",
@@ -70,7 +70,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "If the mother had access to RPM, she could have contacted her pediatrician from the comfort of her home, and the medical professional would have identified the rash. The newborn would not have been exposed to any pathogens from the emergency room if RPM had been used. To this day, I wonder if the baby contracted anything from the ER visit.\"",
+      text: 'If the mother had access to RPM, she could have contacted her pediatrician from the comfort of her home, and the medical professional would have identified the rash. The newborn would not have been exposed to any pathogens from the emergency room if RPM had been used. To this day, I wonder if the baby contracted anything from the ER visit."',
     },
     {
       type: "heading",
@@ -103,7 +103,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "The implementation of RPM requires careful planning and preparation. The first step is to identify the patients who are suitable for RPM. This may include patients with chronic conditions, those who have recently been discharged from the acute care or post-acute facilities, and others who require ongoing monitoring and treatment, including \"hospital at home.\"",
+      text: 'The implementation of RPM requires careful planning and preparation. The first step is to identify the patients who are suitable for RPM. This may include patients with chronic conditions, those who have recently been discharged from the acute care or post-acute facilities, and others who require ongoing monitoring and treatment, including "hospital at home."',
     },
     {
       type: "paragraph",
@@ -122,4 +122,4 @@ export const post: NewsPost = {
       text: "In conclusion, RPM is an effective solution for improving patient outcomes, reducing cost of care, and an important new source of revenues for healthcare providers.",
     },
   ],
-}
+};

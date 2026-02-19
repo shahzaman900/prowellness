@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "future-of-ccm-technology",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/ccm-hero.png",
   coverImageAlt:
     "Conceptual image showing the future of chronic care management technology",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/future-of-ccm-technology/",
   content: [
@@ -108,4 +108,4 @@ export const post: NewsPost = {
       text: "The healthcare industry is undergoing a digital transformation, and chronic care management is at the forefront of this evolution. Technology is bridging gaps in healthcare delivery, making it more efficient, accessible, and patient-centered. As innovations continue to emerge, chronic disease management will shift from reactive care to proactive and preventive solutions, improving lives and optimizing healthcare resources.",
     },
   ],
-}
+};

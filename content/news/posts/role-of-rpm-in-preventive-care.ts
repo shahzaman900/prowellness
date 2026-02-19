@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "role-of-rpm-in-preventive-care",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt:
     "Role of remote patient monitoring in proactive preventive care",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/role-of-rpm-in-preventive-care/",
   content: [
@@ -85,4 +85,4 @@ export const post: NewsPost = {
       ],
     },
   ],
-}
+};

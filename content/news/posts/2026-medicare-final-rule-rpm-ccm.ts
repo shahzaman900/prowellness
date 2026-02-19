@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "2026-medicare-final-rule-rpm-ccm",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/rpm-hero.png",
   coverImageAlt:
     "Remote patient monitoring and chronic care management dashboard",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/2026-medicare-final-rule-rpm-ccm/",
   content: [
@@ -57,7 +57,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "Crucially, these new codes for shorter monitoring periods will be reimbursed at the same rate as the existing codes for longer periods. This \"reimbursement parity\" encourages \"right-sized\" care plans tailored to patient needs, rather than rigid billing rules.",
+      text: 'Crucially, these new codes for shorter monitoring periods will be reimbursed at the same rate as the existing codes for longer periods. This "reimbursement parity" encourages "right-sized" care plans tailored to patient needs, rather than rigid billing rules.',
     },
     {
       type: "heading",
@@ -78,7 +78,7 @@ export const post: NewsPost = {
       ordered: false,
       items: [
         "RTM Expansion: Remote Therapeutic Monitoring (RTM) is expanded to include services for medication adherence and behavioral health.",
-        "Virtual Supervision: The rule makes virtual supervision permanent. For \"incident-to\" billing, the physician now only needs to provide general supervision and does not need to be physically in the office.",
+        'Virtual Supervision: The rule makes virtual supervision permanent. For "incident-to" billing, the physician now only needs to provide general supervision and does not need to be physically in the office.',
       ],
     },
     {
@@ -93,9 +93,17 @@ export const post: NewsPost = {
     {
       type: "table",
       caption: "Revenue Potential by Service Layer",
-      headers: ["Service Layer", "CPT Code Example", "Monthly Revenue Potential (Per Patient)"],
+      headers: [
+        "Service Layer",
+        "CPT Code Example",
+        "Monthly Revenue Potential (Per Patient)",
+      ],
       rows: [
-        ["RPM (Remote Patient Monitoring)", "99453, 99454, 99457/99458", "$55–$60"],
+        [
+          "RPM (Remote Patient Monitoring)",
+          "99453, 99454, 99457/99458",
+          "$55–$60",
+        ],
         ["CCM (Chronic Care Management)", "99490/99439", "$62–$75"],
         ["Total Potential (Stacked)", "", "$120–$135 per patient per month"],
       ],
@@ -144,4 +152,4 @@ export const post: NewsPost = {
       text: "Watch the full webinar here to learn more about how Proactive Wellness can support your practice's RPM and CCM strategy!",
     },
   ],
-}
+};

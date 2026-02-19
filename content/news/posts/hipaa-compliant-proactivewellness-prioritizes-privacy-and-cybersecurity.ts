@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["HIPAA", "Cybersecurity", "Privacy", "RPM"],
   coverImage: "/images/software-integrations.png",
   coverImageAlt: "Secured data integration and privacy icons",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/hipaa-compliant-proactivewellness-prioritizes-privacy-and-cybersecurity/",
@@ -73,4 +73,4 @@ export const post: NewsPost = {
       text: "Contact us today to learn more about how ProactiveWellness can revolutionize your remote patient monitoring with a focus on both patient care and data security.",
     },
   ],
-}
+};

@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "chi-rpm-announces-evolution-as-proactivewellness-care",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Rebranding", "ProactiveWellness Care", "RPM"],
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt: "ProactiveWellness Care rebranding announcement",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/chi-rpm-announces-evolution-as-proactivewellness-care/",
@@ -40,7 +40,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "\"Our core mission remains unchanged,\" states Rob Sanchez, Chief Business Development Officer of ProactiveWellness Care. \"We are passionate about providing the most personalized RPM experience possible. Proactive Wellness Care allows us to further emphasize preventative care and empower healthcare providers, including Federally Qualified Health Clinics (FQHCs), to deliver data-driven care that helps improve patient outcomes. Given our growth, we are expanding into chronic care management and remote therapeutic management programs to address the direction of healthcare towards a more preventive approach. Our CCM programs will follow provider plans of care, and we look to help with medication adherence programs using RPM. This proactive strategy aims to contain the costs of costly ED visits, which are often preventable with proper management.\"",
+      text: '"Our core mission remains unchanged," states Rob Sanchez, Chief Business Development Officer of ProactiveWellness Care. "We are passionate about providing the most personalized RPM experience possible. Proactive Wellness Care allows us to further emphasize preventative care and empower healthcare providers, including Federally Qualified Health Clinics (FQHCs), to deliver data-driven care that helps improve patient outcomes. Given our growth, we are expanding into chronic care management and remote therapeutic management programs to address the direction of healthcare towards a more preventive approach. Our CCM programs will follow provider plans of care, and we look to help with medication adherence programs using RPM. This proactive strategy aims to contain the costs of costly ED visits, which are often preventable with proper management."',
     },
     {
       type: "heading",
@@ -93,4 +93,4 @@ export const post: NewsPost = {
       text: "Visit ProWellCare.com to learn more about the company's transformative approach to remote patient monitoring. Discover how you can set up an RPM program with no upfront costs and no additional staff burden. Join their mission to shape the future of proactive care, where patients and providers thrive as a team.",
     },
   ],
-}
+};

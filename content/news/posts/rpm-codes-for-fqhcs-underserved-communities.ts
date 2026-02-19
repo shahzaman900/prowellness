@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-codes-for-fqhcs-underserved-communities",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["FQHC", "CMS", "RPM Billing", "Underserved Communities"],
   coverImage: "/images/programs-fqhc.png",
   coverImageAlt: "FQHCs empowered with new RPM billing codes",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/rpm-codes-for-fqhcs-underserved-communities/",
@@ -122,4 +122,4 @@ export const post: NewsPost = {
       text: "Ready to transform your FQHC's approach to digital health? Schedule a demo with ProWellCare today and join the healthcare revolution starting July 25, 2025.",
     },
   ],
-}
+};

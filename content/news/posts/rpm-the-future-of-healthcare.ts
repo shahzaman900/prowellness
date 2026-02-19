@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-the-future-of-healthcare",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt:
     "Visualizing the future of healthcare with integrated RPM services",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-the-future-of-healthcare/",
   content: [
@@ -48,4 +48,4 @@ export const post: NewsPost = {
       text: "In conclusion, remote patient monitoring is the way of the future of healthcare, and it offers a lot of advantages for doctors and other medical professionals. RPM can assist healthcare practitioners in providing better care to their patients while also saving time and money through improved patient outcomes, decreased healthcare expenses, and more patient involvement. RPM will become a more crucial tool for physicians and healthcare service providers as the healthcare business develops, and those who adopt this technology early on will be in a better position to succeed in the future.",
     },
   ],
-}
+};

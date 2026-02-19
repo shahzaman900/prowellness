@@ -1,19 +1,20 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "simplify-remote-patient-monitoring-webinar",
   title: "How to Simplify RPM for Your Medical Practice: Webinar Recap",
   publishedAt: "2024-08-27",
   excerpt:
-    "A practical recap of the ProWell Care RPM webinar covering common implementation blockers and a cleaner operating model for care teams.",
+    "A practical recap of the ProactiveWellness Care RPM webinar covering common implementation blockers and a cleaner operating model for care teams.",
   category: "RPM",
   tags: ["RPM", "Workflow", "Webinar"],
   coverImage: "/images/software-dashboard.png",
   coverImageAlt:
     "Care team reviewing remote patient monitoring metrics on a clinical dashboard",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
-  sourceUrl: "https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
+  sourceUrl:
+    "https://prowellcare.com/simplify-remote-patient-monitoring-webinar/",
   content: [
     {
       type: "heading",
@@ -92,4 +93,4 @@ export const post: NewsPost = {
       text: "If you're ready to take your medical practice to the next level with Remote Patient Monitoring, contact ProactiveWellness Care today to learn how we can help you seamlessly integrate RPM into your workflow. Visit ProactiveWellness Care to learn more about remote patient monitoring and how you and your patients can benefit from it.",
     },
   ],
-}
+};

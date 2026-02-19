@@ -11,10 +11,10 @@ export const post: NewsPost = {
   tags: ["Ethics", "Privacy", "Security", "Autonomy", "RPM"],
   coverImage: "/images/software-integrations.png",
   coverImageAlt: "Ethical considerations in digital health and RPM",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/privacy-security-and-autonomy/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "Remote patient monitoring (RPM) is a new model of care that utilizes digital devices, apps and home sensors to collect and share data from patients outside traditional healthcare settings. RPM can help healthcare professionals track health trends over time, predict adverse events, alert caregivers, and intervene earlier. RPM can also empower patients by giving them better understanding and management of their conditions, resulting in better clinical outcomes and less use of healthcare resources. However, RPM raises ethical challenges that must be addressed for effective implementation. These challenges include:",

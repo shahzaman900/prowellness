@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "manage-your-patients-diabetes-with-rpm",
@@ -10,7 +10,7 @@ export const post: NewsPost = {
   tags: ["Diabetes", "RPM", "Blood Glucose"],
   coverImage: "/images/programs-condition-hero.png",
   coverImageAlt: "Patient using RPM device to manage diabetes",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/manage-your-patients-diabetes-with-rpm/",
   content: [
@@ -102,4 +102,4 @@ export const post: NewsPost = {
       ],
     },
   ],
-}
+};

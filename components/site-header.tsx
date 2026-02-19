@@ -62,7 +62,7 @@ export function SiteHeader() {
         <Link href="/" className="mr-8 flex items-center space-x-2">
            <Image 
               src="/prologo.png" 
-              alt="ProWell Care Logo" 
+              alt="ProactiveWellness Care Logo" 
               width={220} 
               height={50} 
               className="h-14 w-auto object-contain"
@@ -96,7 +96,7 @@ export function SiteHeader() {
                             <div className="relative z-10">
                               <Activity className="h-8 w-8 text-white mb-4" />
                               <div className="mb-2 text-xl font-bold text-white capitalize">
-                                ProWell Care
+                                ProactiveWellness Care
                               </div>
                               <p className="text-sm leading-relaxed text-blue-100 font-normal normal-case mb-4">
                                 Comprehensive remote care solutions tailored for modern practices to improve patient outcomes.

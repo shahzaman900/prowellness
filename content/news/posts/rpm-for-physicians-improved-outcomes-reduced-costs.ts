@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-for-physicians-improved-outcomes-reduced-costs",
@@ -10,7 +10,7 @@ export const post: NewsPost = {
   tags: ["Physicians", "RPM", "Outcomes", "Cost Savings"],
   coverImage: "/images/software-dashboard.png",
   coverImageAlt: "Clinical benefits and cost savings for physicians using RPM",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/rpm-for-physicians-improved-outcomes-reduced-costs/",
@@ -36,4 +36,4 @@ export const post: NewsPost = {
       text: "Additionally, RPM can reduce the cost of readmissions. Patients who are readmitted to the hospital within 30 days of discharge are costly for healthcare providers. RPM can reduce the likelihood of readmission by providing continuous monitoring and timely interventions. By reducing readmission rates, healthcare providers can save money and improve patient outcomes.",
     },
   ],
-}
+};

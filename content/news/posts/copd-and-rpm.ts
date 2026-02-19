@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "copd-and-rpm",
@@ -10,7 +10,7 @@ export const post: NewsPost = {
   tags: ["COPD", "RPM", "Symptom Management"],
   coverImage: "/images/rpm-hero.png",
   coverImageAlt: "Patient using remote monitoring for COPD management",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/copd-and-rpm/",
   content: [
@@ -53,4 +53,4 @@ export const post: NewsPost = {
       ],
     },
   ],
-}
+};

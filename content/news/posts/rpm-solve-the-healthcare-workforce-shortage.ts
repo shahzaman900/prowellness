@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-solve-the-healthcare-workforce-shortage",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/software-dashboard.png",
   coverImageAlt:
     "Remote patient monitoring helping mitigate the healthcare workforce shortage",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/rpm-solve-the-healthcare-workforce-shortage/",
@@ -144,4 +144,4 @@ export const post: NewsPost = {
       text: "If you are interested in learning more about how RPM can benefit your organization or practice, contact us today. We are a leading provider of remote patient monitoring solutions that are tailored to your specific needs and goals. We can help you design, implement, and manage your RPM program, and provide you with ongoing support and training.",
     },
   ],
-}
+};

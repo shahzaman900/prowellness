@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "ptsd-and-hypertension",
@@ -12,7 +12,7 @@ export const post: NewsPost = {
   coverImage: "/images/programs-condition-hero.png",
   coverImageAlt:
     "Managing the link between PTSD and hypertension through remote care",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/ptsd-and-hypertension/",
   content: [
@@ -33,7 +33,7 @@ export const post: NewsPost = {
       type: "list",
       ordered: false,
       items: [
-        "Chronic Stress: PTSD can trigger the body's \"fight-or-flight\" response, leading to the release of stress hormones like cortisol. Chronically elevated cortisol levels can put a strain on the cardiovascular system, increasing blood pressure.",
+        'Chronic Stress: PTSD can trigger the body\'s "fight-or-flight" response, leading to the release of stress hormones like cortisol. Chronically elevated cortisol levels can put a strain on the cardiovascular system, increasing blood pressure.',
         "Unhealthy Habits: People with PTSD may be more likely to engage in unhealthy coping mechanisms like smoking, excessive alcohol consumption, or poor diet, all of which contribute to hypertension.",
         "Sleep Disturbances: PTSD can disrupt sleep patterns, and sleep deprivation has been linked to an increased risk of hypertension.",
       ],
@@ -60,4 +60,4 @@ export const post: NewsPost = {
       text: "Hypertension can also lead to strokes. To understand and recognize the signs of stroke and how they linked to hypertension, click here.",
     },
   ],
-}
+};

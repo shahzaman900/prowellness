@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "holiday-health-guide-for-chronic-conditions",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Holiday Health", "Chronic Conditions", "Guide"],
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt: "Balanced lifestyle and wellness during the holiday season",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/holiday-health-guide-for-chronic-conditions/",
@@ -241,4 +241,4 @@ export const post: NewsPost = {
       text: "Wishing you a happy and healthy holiday season!",
     },
   ],
-}
+};

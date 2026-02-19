@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-shaping-america",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt:
     "National growth and impact of remote patient monitoring in the US",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-shaping-america/",
   content: [
@@ -75,4 +75,4 @@ export const post: NewsPost = {
       text: "RPM is shaping the future of healthcare in the US by transforming the way patients and providers interact, exchange information, and deliver care. RPM is not only a technology, but also a strategy, a culture, and a vision that can improve the quality, accessibility, and affordability of healthcare for all.",
     },
   ],
-}
+};

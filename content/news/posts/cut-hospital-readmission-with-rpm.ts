@@ -11,10 +11,10 @@ export const post: NewsPost = {
   tags: ["Hospital Readmissions", "RPM", "Outcomes"],
   coverImage: "/images/outcomes-dashboard.png",
   coverImageAlt: "Data dashboard showing hospital readmission statistics",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/cut-hospital-readmission-with-rpm/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "Hospital readmissions are a significant issue for hospitals across the country. According to the Centers for Medicare and Medicaid Services (CMS), approximately 1 in 5 Medicare patients are readmitted within 30 days of discharge, costing the healthcare system billions of dollars each year. Remote Patient Monitoring (RPM) has been shown to be an effective tool in reducing hospital readmissions.",

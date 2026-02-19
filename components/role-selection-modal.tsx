@@ -51,11 +51,11 @@ export function RoleSelectionModal() {
                 <div className="bg-white p-2 rounded-lg inline-block">
                  {/* Using a placeholder if logo isn't handy, but we know logo path is /images/logo.png. 
                      Since background is dark, we might need a white logo or use the existing one in a white box. */}
-                 <Image src="/images/logo.png" alt="ProWell Care" width={150} height={40} className="h-10 w-auto" />
+                 <Image src="/images/logo.png" alt="ProactiveWellness Care" width={150} height={40} className="h-10 w-auto" />
                 </div>
             </div>
             <DialogTitle className="text-3xl md:text-4xl font-bold font-sans mb-2 !text-white">
-                Welcome to ProWell Care
+                Welcome to ProactiveWellness Care
             </DialogTitle>
             <DialogDescription className="text-blue-100 text-lg">
                 Please select your role to continue to the appropriate portal.

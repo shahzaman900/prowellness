@@ -10,10 +10,10 @@ export const post: NewsPost = {
   tags: ["CCM", "Elderly Care", "Health Outcomes"],
   coverImage: "/images/ccm-hero.png",
   coverImageAlt: "Elderly patient receiving chronic care management",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/chronic-care-for-the-elderly/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "Aging is a natural process, but it often brings with it an increased likelihood of chronic conditions like diabetes, hypertension, arthritis, and heart disease. For people over 65, these conditions can significantly affect their quality of life, leading to complications if not managed properly. This is where",

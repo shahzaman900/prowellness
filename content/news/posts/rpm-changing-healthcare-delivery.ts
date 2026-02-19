@@ -11,10 +11,10 @@ export const post: NewsPost = {
   coverImage: "/images/software-integrations.png",
   coverImageAlt:
     "How RPM technology is transforming modern healthcare delivery",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-changing-healthcare-delivery/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "In recent years, there has been a significant shift in the way healthcare is delivered across the world. One of the most notable changes is the adoption of remote patient monitoring (RPM). RPM is a technology-enabled healthcare delivery model that allows healthcare providers to monitor patients’ health remotely, without the need for in-person visits. RPM is changing healthcare delivery by improving patient outcomes, reducing healthcare costs, and increasing access to care. In this blog, we will explore how RPM is transforming healthcare delivery.",

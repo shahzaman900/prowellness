@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-for-chronic-disease-management",
@@ -10,7 +10,7 @@ export const post: NewsPost = {
   tags: ["Chronic Disease", "RPM", "AMA", "Patient Engagement"],
   coverImage: "/images/programs-condition-hero.png",
   coverImageAlt: "Chronic disease management through remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-for-chronic-disease-management/",
   content: [
@@ -65,4 +65,4 @@ export const post: NewsPost = {
       text: "Remote patient monitoring has emerged as a valuable tool for managing chronic diseases in the American market. RPM promotes patient engagement, improves the quality of care, and can be cost-effective. The AMA supports the integration of RPM into healthcare systems to improve patient care and outcomes. As the healthcare industry continues to evolve, RPM is poised to play an increasingly important role in managing chronic diseases and improving patient health.",
     },
   ],
-}
+};

@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "the-impact-of-telemonitoring-for-diabetes-type-2",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Diabetes", "Telemonitoring", "Research", "Clinical Outcomes"],
   coverImage: "/images/programs-condition-hero.png",
   coverImageAlt: "UAE study showing success of telemonitoring in diabetes care",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/the-impact-of-telemonitoring-for-diabetes-type-2/",
@@ -129,4 +129,4 @@ export const post: NewsPost = {
       text: "The study found that the application of the TM approach resulted in adequate patient compliance, as reflected by the high utilization of BG monitoring devices and portable pill dispensers over the study's period. These findings run in parallel with the current body of evidence highlighting the beneficial role of telemedicine in the patients' adherence to diabetes self-care practices.",
     },
   ],
-}
+};

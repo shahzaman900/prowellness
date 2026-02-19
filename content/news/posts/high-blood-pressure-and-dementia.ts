@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "high-blood-pressure-and-dementia",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/rpm-dashboard.png",
   coverImageAlt:
     "Remote patient monitoring dashboard showing blood pressure trends",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/high-blood-pressure-and-dementia/",
   content: [
@@ -22,7 +22,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "When you think of high blood pressure (hypertension), what comes to mind? Most people immediately think of heart attacks, strokes, or kidney problems. And they're not wrong, hypertension has long been called the \"silent killer\" because it damages the body without obvious symptoms.",
+      text: 'When you think of high blood pressure (hypertension), what comes to mind? Most people immediately think of heart attacks, strokes, or kidney problems. And they\'re not wrong, hypertension has long been called the "silent killer" because it damages the body without obvious symptoms.',
     },
     {
       type: "paragraph",
@@ -196,4 +196,4 @@ export const post: NewsPost = {
       text: "Prevention through better blood pressure management and monitoring is the only sustainable way forward, for families, hospitals, insurers, and society as a whole. With ProactiveWellness Care's Remote Patient Monitoring, families can act today to protect tomorrow. Because managing blood pressure isn't just about adding years to life, it's about adding life to years.",
     },
   ],
-}
+};

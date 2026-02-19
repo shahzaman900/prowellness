@@ -11,11 +11,11 @@ export const post: NewsPost = {
   tags: ["Veterans", "RPM", "Veterans Day"],
   coverImage: "/images/programs-speciality-hero.png",
   coverImageAlt: "Remote patient monitoring supporting veterans health",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/honoring-veterans-remote-patient-monitoring/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "Every year on November 11th, we pause to honor the courage and sacrifice of our nation’s veterans, the brave individuals who have dedicated their lives to protecting our freedom. As we reflect on their service, it is equally vital that we ensure they receive the continued care and attention they deserve, long after their time in uniform. At ProactiveWellness Care, we believe technology is the key to bridging the gap between patients and providers. This is especially true for veterans living with chronic conditions or those in areas with limited healthcare access. One of the most powerful tools in this effort is Remote Patient Monitoring (RPM) for veterans.",

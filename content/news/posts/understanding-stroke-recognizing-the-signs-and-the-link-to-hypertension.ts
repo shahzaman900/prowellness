@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Stroke", "Hypertension", "FAST", "Prevention"],
   coverImage: "/images/programs-condition-hero.png",
   coverImageAlt: "Recognizing stroke signs and managing hypertension",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/understanding-stroke-recognizing-the-signs-and-the-link-to-hypertension/",
@@ -81,4 +81,4 @@ export const post: NewsPost = {
       text: "ProactiveWellness specializes in enhancing patient management for chronic conditions like hypertension through their comprehensive Remote Patient Monitoring (RPM) services. We offer a seamless integration of RPM into the workflows of busy family, internal, and cardiologist offices, ensuring that patients receive the best preventive care. With ProactiveWellness, healthcare providers can improve patient outcomes, reduce hospitalizations, and maintain high patient satisfaction. The program is designed to be easy to start with zero upfront costs and no staff burden, making it an accessible solution for practices looking to implement advanced preventive care services.",
     },
   ],
-}
+};

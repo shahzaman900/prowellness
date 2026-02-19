@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "choosing-the-right-rpm-device",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["RPM", "Devices", "Guide"],
   coverImage: "/images/devices-collection.png",
   coverImageAlt: "Various remote patient monitoring devices",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/choosing-the-right-rpm-device/",
   content: [
@@ -85,4 +85,4 @@ export const post: NewsPost = {
       ],
     },
   ],
-}
+};

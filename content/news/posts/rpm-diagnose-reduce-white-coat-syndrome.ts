@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-diagnose-reduce-white-coat-syndrome",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/rpm-dashboard.png",
   coverImageAlt:
     "Remote patient monitoring helping reduce white coat syndrome anxiety",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-diagnose-reduce-white-coat-syndrome/",
   content: [
@@ -59,4 +59,4 @@ export const post: NewsPost = {
       text: "White coat syndrome is a common condition that can have significant impacts on a patient's health. By using RPM to diagnose and reduce White coat syndrome, healthcare providers can help patients to manage their blood pressure levels more effectively and reduce their overall stress and anxiety levels. With the continued evolution of RPM technology, we can expect to see more innovative solutions in the future that will enable healthcare providers to better manage and monitor patients' health conditions.",
     },
   ],
-}
+};

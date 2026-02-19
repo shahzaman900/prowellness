@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "technology-in-chronic-care-management",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Technology", "CCM", "RPM", "Wearables", "AI"],
   coverImage: "/images/software-dashboard.png",
   coverImageAlt: "Technology enabling better chronic care management",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/technology-in-chronic-care-management/",
   content: [
@@ -110,4 +110,4 @@ export const post: NewsPost = {
       text: "At the intersection of technology and healthcare, CCM and RPM are transforming the way we approach chronic condition management—empowering patients to take control of their health and enabling providers to offer more efficient and effective care.",
     },
   ],
-}
+};

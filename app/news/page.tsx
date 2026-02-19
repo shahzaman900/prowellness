@@ -20,7 +20,7 @@ export default function NewsPage() {
                 News & Updates
               </h1>
               <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-                Stay current with ProWell Care news, RPM and CCM insights, and operational guidance for care teams.
+                Stay current with ProactiveWellness Care news, RPM and CCM insights, and operational guidance for care teams.
               </p>
             </div>
           </div>

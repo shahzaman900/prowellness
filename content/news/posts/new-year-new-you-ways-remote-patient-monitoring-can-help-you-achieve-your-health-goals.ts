@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["New Year", "Health Goals", "RPM", "Personalized Care"],
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt: "Achieving wellness goals with remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/new-year-new-you-ways-remote-patient-monitoring-can-help-you-achieve-your-health-goals/",
@@ -42,7 +42,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "So, this year, skip the fads and embrace a smarter approach to health. Say goodbye to the \"New Year, New You\" pressure and say hello to a confident, empowered you – guided by data, supported by your healthcare team, and powered by the magic of remote patient monitoring.",
+      text: 'So, this year, skip the fads and embrace a smarter approach to health. Say goodbye to the "New Year, New You" pressure and say hello to a confident, empowered you – guided by data, supported by your healthcare team, and powered by the magic of remote patient monitoring.',
     },
     {
       type: "paragraph",
@@ -53,4 +53,4 @@ export const post: NewsPost = {
       text: "Happy (and healthy) New Year!",
     },
   ],
-}
+};

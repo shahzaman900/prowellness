@@ -12,11 +12,11 @@ export const post: NewsPost = {
   coverImage: "/images/programs-speciality-hero.png",
   coverImageAlt:
     "Independent primary care providers leveraging remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/remote-patient-monitoring-independent-primary-care/",
-    content: [
+  content: [
     {
       type: "paragraph",
       text: "As an independent primary care provider, you are at the forefront of managing patients with chronic conditions. The challenge of providing continuous, high-quality care between office visits can be daunting, but remote patient monitoring (RPM) offers a transformative solution. Here are the top three reasons why incorporating RPM into your practice can enhance patient care and improve outcomes. #1. Proactive Patient Management and Early Intervention RPM allows for continuous monitoring of patients’ vital signs and health data, enabling you to detect potential health issues before they escalate into serious problems. This proactive approach is particularly beneficial for managing chronic conditions such as diabetes, hypertension, and heart disease. By receiving real-time data, you can intervene early, adjusting treatment plans as needed and preventing complications that could lead to hospitalizations.",

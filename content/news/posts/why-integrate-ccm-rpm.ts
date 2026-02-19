@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "why-integrate-ccm-rpm",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/software-integrations.png",
   coverImageAlt:
     "Integrated chronic care management and remote patient monitoring model",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/why-integrate-ccm-rpm/",
   content: [
@@ -209,4 +209,4 @@ export const post: NewsPost = {
       text: "Contact now to learn more about our solutions",
     },
   ],
-}
+};

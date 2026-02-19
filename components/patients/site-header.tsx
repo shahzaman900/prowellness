@@ -11,7 +11,7 @@ export function PatientsSiteHeader() {
         <Link href="/patients" className="flex items-center gap-2">
           <Image
             src="/images/logo.png"
-            alt="ProWell Care Logo"
+            alt="ProactiveWellness Care Logo"
             width={180}
             height={50}
             className="w-auto h-10 md:h-12"

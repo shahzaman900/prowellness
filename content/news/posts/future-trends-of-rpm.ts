@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "future-trends-of-rpm",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/software-integrations.png",
   coverImageAlt:
     "Abstract representation of future trends in remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/future-trends-of-rpm/",
   content: [
@@ -89,4 +89,4 @@ export const post: NewsPost = {
       text: "Remote Patient Monitoring is the future of healthcare in the US. As the demand for healthcare services continues to increase, RPM is expected to expand its use in chronic disease management, integrate with AI, be adopted by employers and health plans, and be a critical component of telehealth services. As technology continues to evolve, the possibilities for RPM are endless.",
     },
   ],
-}
+};

@@ -16,7 +16,7 @@ export function ContactHeroSection() {
           Contact Us
         </h1>
         <p className="max-w-2xl mx-auto text-xl text-blue-100 mb-10 leading-relaxed font-light">
-          Get in touch to learn how ProWell Care can transform your practice with our comprehensive remote care solutions.
+          Get in touch to learn how ProactiveWellness Care can transform your practice with our comprehensive remote care solutions.
         </p>
       </div>
     </section>

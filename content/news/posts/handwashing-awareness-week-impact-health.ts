@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "handwashing-awareness-week-impact-health",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Handwashing", "Hygiene", "Chronic Conditions"],
   coverImage: "/images/hero-lifestyle.png",
   coverImageAlt: "Importance of handwashing for health and hygiene",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl:
     "https://prowellcare.com/handwashing-awareness-week-impact-health/",
@@ -85,4 +85,4 @@ export const post: NewsPost = {
       text: "Stay healthy, stay proactive, and make handwashing a simple act with a big impact on your health!",
     },
   ],
-}
+};

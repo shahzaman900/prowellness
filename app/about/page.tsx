@@ -8,14 +8,14 @@ export default function AboutPage() {
       <SiteHeader />
       <main className="flex-1">
         <PageHero 
-            title="About ProWell Care" 
+            title="About ProactiveWellness Care" 
             subtitle="Revolutionizing healthcare through data-driven, patient-centric technology."
         />
         
         <section className="py-16 container px-4 mx-auto">
             <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground">
                  <p>
-                    At ProactiveWellness (ProWell Care), security, compliance, and interoperability are the cornerstones of how we operate. 
+                    At ProactiveWellness (ProactiveWellness Care), security, compliance, and interoperability are the cornerstones of how we operate. 
                     From protecting patient data to seamlessly integrating with your EHR, we ensure a frictionless and secure experience for every partner.
                  </p>
                  <p>

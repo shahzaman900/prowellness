@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-for-elderly-care",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   coverImage: "/images/chronic-care-management-hero.png",
   coverImageAlt:
     "Providing better care for the elderly with remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-for-elderly-care/",
   content: [
@@ -54,4 +54,4 @@ export const post: NewsPost = {
       ],
     },
   ],
-}
+};

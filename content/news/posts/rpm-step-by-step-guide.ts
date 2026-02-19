@@ -1,4 +1,4 @@
-import type { NewsPost } from "@/lib/news/types"
+import type { NewsPost } from "@/lib/news/types";
 
 export const post: NewsPost = {
   slug: "rpm-step-by-step-guide",
@@ -11,7 +11,7 @@ export const post: NewsPost = {
   tags: ["Guide", "RPM", "Implementation", "Patient Care"],
   coverImage: "/images/rpm-hero.png",
   coverImageAlt: "Step-by-step guide to starting remote patient monitoring",
-  author: "ProWell Care Editorial Team",
+  author: "ProactiveWellness Care Editorial Team",
   status: "published",
   sourceUrl: "https://prowellcare.com/rpm-step-by-step-guide/",
   content: [
@@ -131,7 +131,7 @@ export const post: NewsPost = {
     },
     {
       type: "paragraph",
-      text: "These are just some examples of RPM applications. There may be other conditions or symptoms that can benefit from RPM as well. To find out if RPM is suitable for you and what device you will need, consult your physician."
+      text: "These are just some examples of RPM applications. There may be other conditions or symptoms that can benefit from RPM as well. To find out if RPM is suitable for you and what device you will need, consult your physician.",
     },
     {
       type: "heading",
@@ -143,4 +143,4 @@ export const post: NewsPost = {
       text: "Remote patient monitoring (RPM) uses technology to track and share health data with providers. RPM can help you improve your outcomes, reduce your costs, and enhance your communication with your provider. If interested in RPM, talk to your provider about it and see if they offer or refer you to someone who does. You can also do some research online to find out more about RPM devices and platforms available.",
     },
   ],
-}
+};
