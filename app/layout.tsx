@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   description: "Value-Based Care Excellence Starts with RPM & CCM Patient Oversight.",
 };
 
+import Script from "next/script";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,6 +31,19 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZK7B3VN3RZ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZK7B3VN3RZ');
+          `}
+        </Script>
         {children}
       </body>
     </html>
