@@ -41,7 +41,7 @@ export function PatientServicesSection() {
                     <p className="text-muted-foreground font-medium">Services Overview Image</p>
                 </div>
                 <Image
-                    src="/images/programs-ccm-hero.png" // Using a fallback relevant image
+                    src="/images/ccm-care-plan.png"
                     alt="Patient receiving remote care services"
                     fill
                     className="object-cover"
