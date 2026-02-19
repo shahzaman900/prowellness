@@ -86,11 +86,17 @@ export const post: NewsPost = {
       text: "The 2026 Final Rule creates new reimbursement opportunities, especially through code stacking. Here is the potential monthly revenue per patient:",
     },
     {
-      type: "list",
-      items: [
-        "RPM (99453, 99454, 99457/99458): $55–$60",
-        "CCM (99490/99439): $62–$75",
-        "Total Potential Stacked: $120–$135 per patient per month",
+      type: "table",
+      caption: "Monthly Revenue Potential (Per Patient)",
+      headers: [
+        "Service Layer",
+        "CPT Code Example",
+        "Monthly Revenue Potential",
+      ],
+      rows: [
+        ["RPM (Remote Patient Monitoring)", "99453, 99454, 99457/99458", "$55–$60"],
+        ["CCM (Chronic Care Management)", "99490/99439", "$62–$75"],
+        ["Total Potential", "Stacked", "$120–$135 per patient per month"],
       ],
     },
     {

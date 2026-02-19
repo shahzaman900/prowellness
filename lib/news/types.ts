@@ -28,6 +28,12 @@ export type NewsContentBlock =
       text: string
       citation?: string
     }
+  | {
+      type: "table"
+      caption?: string
+      headers: string[]
+      rows: string[][]
+    }
 
 export interface NewsPost {
   slug: string

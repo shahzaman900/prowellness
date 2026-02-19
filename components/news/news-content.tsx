@@ -48,6 +48,48 @@ export function NewsContent({ content }: NewsContentProps) {
           )
         }
 
+        if (block.type === "table") {
+          return (
+            <div key={`table-${index}`} className="space-y-3">
+              {block.caption ? (
+                <p className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                  {block.caption}
+                </p>
+              ) : null}
+              <div className="overflow-x-auto rounded-xl border border-gray-200">
+                <table className="min-w-full border-collapse bg-white text-left text-sm">
+                  <thead className="bg-primary/5">
+                    <tr>
+                      {block.headers.map((header, headerIndex) => (
+                        <th
+                          key={`table-header-${index}-${headerIndex}`}
+                          className="border-b border-gray-200 px-4 py-3 font-bold text-[#121576]"
+                        >
+                          {header}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, rowIndex) => (
+                      <tr key={`table-row-${index}-${rowIndex}`} className="align-top even:bg-gray-50/40">
+                        {row.map((cell, cellIndex) => (
+                          <td
+                            key={`table-cell-${index}-${rowIndex}-${cellIndex}`}
+                            className="border-b border-gray-100 px-4 py-3 text-foreground/90"
+                          >
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )
+        }
+
         return (
           <blockquote
             key={`quote-${index}`}
