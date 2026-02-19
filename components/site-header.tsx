@@ -145,6 +145,15 @@ export function SiteHeader() {
             </NavigationMenu>
             
             <Link
+              href="https://web-app.prowellcare.com/test/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-secondary text-primary"
+            >
+              PORTAL
+            </Link>
+
+            <Link
               href="/contact"
               className="transition-colors hover:text-secondary text-primary"
             >
