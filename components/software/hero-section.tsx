@@ -34,7 +34,7 @@ export function SoftwareHeroSection() {
           <div className="relative order-1 lg:order-2">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50 aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500 bg-slate-100">
                <Image
-                  src="/images/software-hero.png"
+                  src="/images/Gemini_Generated_Image_hdbz0qhdbz0qhdbz.png"
                   alt="Clinical Monitoring Software Dashboard"
                   fill
                   className="object-cover"

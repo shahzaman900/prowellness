@@ -36,7 +36,7 @@ export function ConditionsHeroSection() {
           <div className="relative hidden lg:block">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50 aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500">
                <Image
-                  src="/images/programs-condition-hero.png"
+                  src="/images/Gemini_Generated_Image_6vr1gc6vr1gc6vr1.png"
                   alt="Chronic Care Management"
                   fill
                   className="object-cover"
