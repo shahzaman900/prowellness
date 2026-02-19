@@ -1,6 +1,6 @@
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import { NewsCard } from "@/components/news/news-card"
+import { NewsFeed } from "@/components/news/news-feed"
 import { getAllNewsPosts } from "@/lib/news"
 
 export default function NewsPage() {
@@ -31,21 +31,7 @@ export default function NewsPage() {
         <section className="pb-24">
           <div className="container mx-auto px-4">
             {featuredPost ? (
-              <div className="space-y-14">
-                <NewsCard post={featuredPost} featured />
-
-                {remainingPosts.length > 0 ? (
-                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    {remainingPosts.map((post) => (
-                      <NewsCard key={post.slug} post={post} />
-                    ))}
-                  </div>
-                ) : (
-                  <div className="rounded-2xl border border-dashed border-gray-300 bg-white p-8 text-center text-muted-foreground">
-                    Add more files in <code>content/news/posts</code> to populate additional cards.
-                  </div>
-                )}
-              </div>
+              <NewsFeed featuredPost={featuredPost} posts={remainingPosts} />
             ) : (
               <div className="rounded-2xl border border-dashed border-gray-300 bg-white p-8 text-center text-muted-foreground">
                 No published posts found. Add a post in <code>content/news/posts</code> and set <code>status</code> to{" "}
