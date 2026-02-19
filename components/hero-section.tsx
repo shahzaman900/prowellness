@@ -16,7 +16,7 @@ export function HeroSection() {
           <div className="text-center lg:text-left space-y-8">
             <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl font-sans leading-tight">
               Value-Based Care Excellence <br className="hidden lg:block" />
-              <span className="text-primary font-serif italic">Starts with RPM & CCM</span>
+              <span className="text-primary ">Starts with RPM & CCM</span>
             </h1>
             <p className="mx-auto lg:mx-0 max-w-2xl text-lg text-muted-foreground leading-relaxed">
               Elevate your clinic’s reputation, results, and revenue by prioritizing proactive care management for chronic conditions through proven RPM and CCM programs.

@@ -84,7 +84,7 @@ export function SiteFooter() {
           </div>
 
           {/* Newsletter / CTA */}
-          <div>
+          {/* <div>
             <h3 className="!text-white font-semibold mb-6 text-lg">Stay Updated</h3>
             <p className="text-gray-400 text-sm mb-4">
                 Subscribe to our newsletter for the latest healthcare insights.
@@ -98,7 +98,7 @@ export function SiteFooter() {
                     Join
                 </Button>
             </div>
-          </div>
+          </div> */}
 
         </div>
 

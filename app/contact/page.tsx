@@ -54,8 +54,7 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="font-bold text-[#121576] text-lg mb-1">Office</h3>
                                 <p className="text-muted-foreground text-lg">
-                                    Cognitive Healthcare International<br />
-                                    <span className="text-sm opacity-80">Serving healthcare providers nationwide</span>
+                                    235 Park Ave. Swarthmore, PA 19081<br />
                                 </p>
                             </div>
                         </div>
