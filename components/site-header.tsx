@@ -1,9 +1,10 @@
 "use client"
 
-import * as React from "react"
+import { usePathname } from "next/navigation"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, Activity, Heart, Laptop, Smartphone, Users, FileText, ChevronRight } from "lucide-react"
+import { Menu, X, Activity, Heart, Laptop, Smartphone, Users, FileText, ChevronRight } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -15,8 +16,15 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 import { cn } from "@/lib/utils"
 import { RequestDemoModal } from "@/components/request-demo-modal"
+import React from "react"
 
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
@@ -54,11 +62,22 @@ const ListItem = React.forwardRef<
 ListItem.displayName = "ListItem"
 
 export function SiteHeader() {
-  const [isDemoModalOpen, setIsDemoModalOpen] = React.useState(false)
+  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  // Prevent scroll when menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "unset"
+    }
+  }, [isMobileMenuOpen])
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm border-b border-gray-100">
-      <div className="container flex h-24 items-center mx-auto px-4">
+      <div className="container flex h-24 items-center mx-auto px-4 relative z-50 bg-white">
         <Link href="/" className="mr-8 flex items-center space-x-2">
            <Image 
               src="/prologo.png" 
@@ -73,7 +92,10 @@ export function SiteHeader() {
           <nav className="flex items-center space-x-8 text-sm font-bold uppercase tracking-wider hidden md:flex">
             <Link
               href="/"
-              className="transition-colors hover:text-secondary text-primary"
+              className={cn(
+                "transition-colors hover:text-secondary",
+                pathname === "/" ? "text-secondary" : "text-primary"
+              )}
             >
               Home
             </Link>
@@ -81,7 +103,10 @@ export function SiteHeader() {
             <NavigationMenu>
               <NavigationMenuList className="space-x-8">
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-primary hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
+                  <NavigationMenuTrigger className={cn(
+                    "bg-transparent hover:bg-transparent data-[state=open]:bg-transparent hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider",
+                    pathname?.startsWith("/rpm") || pathname?.startsWith("/ccm") ? "text-secondary" : "text-primary"
+                  )}>
                     How We Help
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -124,7 +149,10 @@ export function SiteHeader() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-transparent data-[state=open]:bg-transparent text-primary hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider">
+                  <NavigationMenuTrigger className={cn(
+                    "bg-transparent hover:bg-transparent data-[state=open]:bg-transparent hover:text-secondary focus:text-secondary data-[state=open]:text-secondary focus:bg-transparent h-auto py-0 px-0 text-sm font-bold uppercase tracking-wider",
+                    pathname?.startsWith("/programs") ? "text-secondary" : "text-primary"
+                  )}>
                     Who We Serve
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -155,13 +183,19 @@ export function SiteHeader() {
 
             <Link
               href="/contact"
-              className="transition-colors hover:text-secondary text-primary"
+              className={cn(
+                "transition-colors hover:text-secondary",
+                pathname === "/contact" ? "text-secondary" : "text-primary"
+              )}
             >
               Contact
             </Link>
             <Link
               href="/news"
-              className="transition-colors hover:text-secondary text-primary"
+              className={cn(
+                "transition-colors hover:text-secondary",
+                pathname === "/news" ? "text-secondary" : "text-primary"
+              )}
             >
               News & Updates
             </Link>
@@ -173,13 +207,159 @@ export function SiteHeader() {
             >
                 Request Demo
             </Button>
-            <Button variant="ghost" size="icon" className="md:hidden">
-                <Menu className="h-6 w-6" />
+            <Button 
+                variant="ghost" 
+                size="icon" 
+                className="md:hidden text-primary hover:text-secondary hover:bg-transparent"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+                {isMobileMenuOpen ? (
+                    <X className="h-7 w-7" />
+                ) : (
+                    <Menu className="h-7 w-7" />
+                )}
                 <span className="sr-only">Toggle menu</span>
             </Button>
           </div>
         </div>
       </div>
+      
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden fixed inset-0 z-40 bg-white pt-24 px-6 overflow-y-auto animate-in slide-in-from-top-5 duration-300">
+            <nav className="flex flex-col space-y-6 pb-20">
+                <Link
+                    href="/"
+                    className={cn(
+                        "text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4",
+                        pathname === "/" ? "text-secondary" : "text-primary"
+                    )}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    Home
+                </Link>
+
+                <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="how-we-help" className="border-b border-gray-100">
+                        <AccordionTrigger className={cn(
+                            "text-lg font-bold uppercase tracking-wider hover:no-underline py-4",
+                            pathname?.startsWith("/rpm") || pathname?.startsWith("/ccm") ? "text-secondary" : "text-primary"
+                        )}>
+                            How We Help
+                        </AccordionTrigger>
+                        <AccordionContent className="pb-4">
+                            <div className="flex flex-col space-y-4 pl-4 border-l-2 border-gray-100 ml-2">
+                                <Link 
+                                    href="/rpm" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Activity className="h-4 w-4" /> Remote Patient Monitoring
+                                </Link>
+                                <Link 
+                                    href="/ccm" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Heart className="h-4 w-4" /> Chronic Care Management
+                                </Link>
+                                <Link 
+                                    href="/software" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Laptop className="h-4 w-4" /> Clinical Monitoring Software
+                                </Link>
+                                <Link 
+                                    href="/devices" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Smartphone className="h-4 w-4" /> Devices
+                                </Link>
+                            </div>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="who-we-serve" className="border-b border-gray-100">
+                        <AccordionTrigger className={cn(
+                            "text-lg font-bold uppercase tracking-wider hover:no-underline py-4",
+                            pathname?.startsWith("/programs") ? "text-secondary" : "text-primary"
+                        )}>
+                            Who We Serve
+                        </AccordionTrigger>
+                        <AccordionContent className="pb-4">
+                            <div className="flex flex-col space-y-4 pl-4 border-l-2 border-gray-100 ml-2">
+                                <Link 
+                                    href="/programs/types" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <FileText className="h-4 w-4" /> Care Programs by Types
+                                </Link>
+                                <Link 
+                                    href="/programs/conditions" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Heart className="h-4 w-4" /> Care Programs by Condition
+                                </Link>
+                                <Link 
+                                    href="/programs/speciality" 
+                                    className="flex items-center gap-3 text-sm font-semibold text-gray-600 hover:text-secondary"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Users className="h-4 w-4" /> Care Programs by Speciality
+                                </Link>
+                            </div>
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
+
+                <Link
+                    href="https://web-app.prowellcare.com/test/login"
+                    target="_blank"
+                    className="text-lg font-bold uppercase tracking-wider text-primary border-b border-gray-100 pb-4"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    PORTAL
+                </Link>
+
+                <Link
+                    href="/contact"
+                    className={cn(
+                        "text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4",
+                        pathname === "/contact" ? "text-secondary" : "text-primary"
+                    )}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    Contact
+                </Link>
+                
+                <Link
+                    href="/news"
+                    className={cn(
+                        "text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4",
+                        pathname === "/news" ? "text-secondary" : "text-primary"
+                    )}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    News & Updates
+                </Link>
+
+                <Button 
+                    onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        setIsDemoModalOpen(true);
+                    }}
+                    className="w-full rounded-sm px-8 py-6 font-bold tracking-widest uppercase bg-secondary hover:bg-secondary/90 text-white shadow-md hover:shadow-lg transition-all mt-4"
+                >
+                    Request Demo
+                </Button>
+            </nav>
+        </div>
+      )}
+
       <RequestDemoModal isOpen={isDemoModalOpen} onOpenChange={setIsDemoModalOpen} />
     </header>
   )
