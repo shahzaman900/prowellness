@@ -17,6 +17,7 @@ import { CcmBenefitsSection } from "@/components/ccm/benefits-section"
 import { CcmEngagementSection } from "@/components/ccm/engagement-section"
 import { CcmBillingSection } from "@/components/ccm/billing-section"
 import { CcmFaqSection } from "@/components/ccm/faq-section"
+import { CcmCtaSection } from "@/components/ccm/cta-section"
 
 export default function CCMPage() {
   return (
@@ -74,10 +75,8 @@ export default function CCMPage() {
                 </div>
             </div>
         </section>
-
         <CcmFaqSection />
-
-        <CtaSection />
+        <CcmCtaSection />
       </main>
       <SiteFooter />
     </div>
