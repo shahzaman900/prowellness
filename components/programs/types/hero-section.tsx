@@ -34,20 +34,13 @@ export function TypesHeroSection() {
 
           <div className="relative order-1 lg:order-2">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50 aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500 bg-slate-100 flex items-center justify-center">
-               {/* Placeholder for Hero Image */}
-               <div className="text-center p-8">
-                   <p className="text-muted-foreground text-lg">Hero Image Placeholder</p>
-                   <p className="text-sm text-muted-foreground/80">(Generation Failed - Retry or Upload)</p>
-               </div>
-               {/* 
                <Image
-                  src="/images/types-hero.png"
+                  src="/images/hero-lifestyle.png"
                   alt="Healthcare Organization"
                   fill
                   className="object-cover"
                   priority
                />
-               */}
                <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay pointer-events-none"></div>
             </div>
 

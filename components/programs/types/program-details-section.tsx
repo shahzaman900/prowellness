@@ -17,6 +17,7 @@ export function ProgramDetailsSection() {
           </p>
         </>
       ),
+      image: "/images/ccm-hero.png"
     },
     {
       id: "value-based",
@@ -31,6 +32,7 @@ export function ProgramDetailsSection() {
           </p>
         </>
       ),
+      image: "/images/outcomes-dashboard.png"
     },
     {
       id: "hospitals",
@@ -38,13 +40,14 @@ export function ProgramDetailsSection() {
       content: (
         <>
           <p className="mb-4">
-            ProWellCare enables hospitals and health systems to <span className="font-bold">improve clinical outcomes through integrated RPM and CCM services</span>. Our CHARMS platform provides <span className="font-bold">continuous patient monitoring</span> and <span className="font-bold">actionable insights</span>, empowering care teams to <span className="font-bold">reduce readmissions</span> and <span className="font-bold">enhance patient engagement</span>.
+            ProWellCare enables hospitals and health systems to <span className="font-bold">improve clinical outcomes through integrated RPM and CCM services</span>. Our CHARMS platform provides <span className="font-bold">continuous patient monitoring</span> and <span className="font-bold">actionable insights</span>, empowering care teams to <span className="font-bold">reduce readmissions</span> and <span className="font-bold">enhance patient engagement.</span>
           </p>
           <p>
             With secure RPM cellular devices, our solution ensures reliable data collection and facilitates proactive care management, optimizing both patient outcomes and operational efficiency. By supporting your transition to value-based care, ProWellCare helps you achieve quality benchmarks, maximize reimbursement, and deliver better long-term results for your patients and your organization.
           </p>
         </>
       ),
+      image: "/images/rpm-hero.png"
     },
     {
       id: "fqhc",
