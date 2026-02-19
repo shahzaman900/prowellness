@@ -57,6 +57,7 @@ export function SiteFooter() {
               <li><Link href="/ccm" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Chronic Care Management</Link></li>
               <li><Link href="/software" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Clinical Software</Link></li>
                <li><Link href="/programs/types" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />Care Programs</Link></li>
+               <li><Link href="/news" className="hover:text-[#F36076] transition-colors flex items-center gap-2 group"><ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />News & Updates</Link></li>
             </ul>
           </div>
 

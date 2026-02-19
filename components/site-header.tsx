@@ -159,6 +159,12 @@ export function SiteHeader() {
             >
               Contact
             </Link>
+            <Link
+              href="/news"
+              className="transition-colors hover:text-secondary text-primary"
+            >
+              News & Updates
+            </Link>
           </nav>
           <div className="flex items-center space-x-2">
             <Button 
