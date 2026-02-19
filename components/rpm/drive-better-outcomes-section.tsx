@@ -15,11 +15,11 @@ export function DriveBetterOutcomesSection() {
                  
                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="flex flex-col items-center">
-                        <div className="text-5xl font-bold text-red-400 mb-2">0%</div>
+                        <div className="text-5xl font-bold text-red-400 mb-2">65%</div>
                         <div className="text-sm font-semibold text-foreground uppercase tracking-wide">HEDIS Goal</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div className="text-5xl font-bold text-red-400 mb-2">0%</div>
+                        <div className="text-5xl font-bold text-red-400 mb-2">88%</div>
                         <div className="text-sm font-semibold text-foreground uppercase tracking-wide">Engagement Rate</div>
                     </div>
                      <div className="flex flex-col items-center">

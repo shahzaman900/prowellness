@@ -66,11 +66,11 @@ export default function CCMPage() {
                             ))}
                          </ul>
 
-                         <div className="pt-6">
+                         {/* <div className="pt-6">
                             <Button size="lg" className="rounded-full">
                                 Learn about Enrollment <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
-                         </div>
+                         </div> */}
                     </div>
                 </div>
             </div>

@@ -16,8 +16,8 @@ export function SiteFooter() {
           
           {/* Brand Column */}
           <div className="space-y-6">
-            <Link href="/" className="block">
-                <div className="relative h-12 w-48">
+            <Link href="/" className="block p-2 bg-white rounded">
+                <div className="relative h-12 w-48 ">
                     <Image 
                         src="/prologo.png" 
                         alt="ProactiveWellness Logo" 

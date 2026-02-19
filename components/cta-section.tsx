@@ -12,10 +12,8 @@ export function CtaSection() {
     <section className="py-24 bg-white text-center sm:text-left">
       <div className="container px-4 mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-6 text-[#121576] font-sans leading-tight">
-          Drive better outcomes, <br className="hidden sm:block" />
-          eliminate blind spots, and <br className="hidden sm:block" />
-          ensure revenue with <br className="hidden sm:block" />
-          <span className="text-[#121576]">ProactiveWellness.</span>
+          Start your RPM journey  <br className="hidden sm:block" />with
+          <span className="text-[#121576]"> ProactiveWellness Care.</span>
         </h2>
         <p className="text-muted-foreground mb-8 text-lg">
           Get in touch to get started.
