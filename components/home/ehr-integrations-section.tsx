@@ -4,13 +4,12 @@ import Image from "next/image"
 
 export function EhrIntegrationsSection() {
   const partners = [
-    "eClinicalWorks",
-    "athenahealth",
-    "Practice Fusion",
-    "AdvancedMD",
-    "Medenet",
-    "DispatchHealth",
-    "Tebra"
+    { name: "eClinicalWorks", src: "/partners-logo/eClinicalWorks.png" },
+    { name: "athenahealth", src: "/partners-logo/Athenahealth-Logo.wine.png" },
+    { name: "Practice Fusion", src: "/partners-logo/Practicefusion-600x315.png" },
+    { name: "Medent", src: "/partners-logo/medent-logo-min-600x315.png" },
+    { name: "DispatchHealth", src: "/partners-logo/dispatchhealth-logo-png_seeklogo-441972.png" },
+    { name: "AdvancedMD", src: "/partners-logo/image (4).png" },
   ]
 
   return (
@@ -21,13 +20,15 @@ export function EhrIntegrationsSection() {
             Proudly working with
           </h2>
           {/* Logo Grid */}
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
              {partners.map((partner, index) => (
-                <div key={index} className="flex items-center justify-center p-4 min-w-[150px]">
-                    {/* Placeholder for Logo - In a real app, uses Next/Image */}
-                    <span className="text-xl md:text-2xl font-bold text-gray-400 hover:text-[#121576] transition-colors">
-                        {partner}
-                    </span>
+                <div key={index} className="flex items-center justify-center p-4 w-[180px] h-[100px] relative grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+                    <Image
+                        src={partner.src}
+                        alt={partner.name}
+                        fill
+                        className="object-contain"
+                    />
                 </div>
             ))}
           </div>

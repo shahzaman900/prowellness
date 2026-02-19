@@ -3,31 +3,31 @@ import { cn } from "@/lib/utils"
 export function OutcomesSection() {
   const outcomes = [
     {
-      value: "18%",
+      value: "76%",
       label: "Reduction in hospital readmissions through consistent RPM usage",
       source: "Industry Standard",
       color: "text-blue-600 bg-blue-50",
     },
     {
-      value: "3x",
+      value: "2x",
       label: "Improvement in medication adherence with CCM-enrolled patients",
       source: "AJMC, 2020",
       color: "text-indigo-600 bg-indigo-50",
     },
     {
-      value: "17%",
+      value: "70%",
       label: "of hypertensive patients controlled BP within 3 months of RPM use",
       source: "JAMA Internal Medicine, 2019",
       color: "text-emerald-600 bg-emerald-50",
     },
     {
-      value: "6%",
+      value: "23%",
       label: "More preventive care services received by CCM patients",
       source: "CMS CCM Evaluation Report, 2020",
       color: "text-purple-600 bg-purple-50",
     },
     {
-      value: "7%",
+      value: "30%",
       label: "Improvement in A1C levels in diabetic patients using RPM",
       source: "NIH/National Library of Medicine, 2022",
       color: "text-rose-600 bg-rose-50",
@@ -51,19 +51,19 @@ export function OutcomesSection() {
       color: "text-teal-600 bg-teal-50",
     },
     {
-      value: "11%",
+      value: "18%",
       label: "Fewer ER visits from RPM adoption",
       source: "UPMC, 2020",
       color: "text-orange-600 bg-orange-50",
     },
     {
-      value: "4%",
+      value: "18%",
       label: "Reduction in inpatient spending",
       source: "CMS CCM Report, 2020",
       color: "text-fuchsia-600 bg-fuchsia-50",
     },
      {
-      value: "2%",
+      value: "44%",
       label: "Reduction in outpatient costs via CCM",
       source: "CMS CCM Report, 2020",
       color: "text-sky-600 bg-sky-50",

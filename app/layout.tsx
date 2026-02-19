@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "ProWell Care | Remote Patient Monitoring & Chronic Care Management",
+  title: "ProactiveWellness Care",
   description: "Value-Based Care Excellence Starts with RPM & CCM Patient Oversight.",
 };
 

@@ -4,15 +4,14 @@ import Image from "next/image"
 
 export function ComplianceSection() {
   const partners = [
-    "HIPAA Compliance",
-    "AWS Partner",
-    "Audit Ready",
-    "ISO Certified",
-    "SOC 2 Type II",
-    "Google Play",
-    "FDA Registered",
-    "Apple App Store",
-    "HITRUST CSF"
+    { name: "SOC 2 Type II", src: "/logoes/1c64e3e82297193742d357ab51f6e570d150ff4a-1280x720.png" },
+    { name: "HIPAA Compliant", src: "/logoes/360_F_114960357_Uk8k1KnlarHciamLWlXBaQBM8viG0IPL.jpg" },
+    { name: "FDA Registered", src: "/logoes/image (4).png" },
+    { name: "AWS Partner", src: "/logoes/Amazon_Web_Services_Logo.png" },
+    { name: "HITRUST CSF", src: "/logoes/certification-HITRUST-CSF.png" },
+    { name: "ISO Certified", src: "/logoes/360_F_1536218192_ObUGfQ281p2tXcpemF0jhqUc8xGRwK78 (1).png" },
+    { name: "Google Play", src: "/logoes/Google_Play-Logo.wine.png" },
+    { name: "App Store", src: "/logoes/image (sds4).png" },
   ]
 
   return (
@@ -38,17 +37,20 @@ export function ComplianceSection() {
             <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                     {partners.map((partner, index) => (
-                        <div key={index} className="aspect-video flex items-center justify-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-[#121576]/20 transition-colors group">
-                             {/* Placeholder for Logo - In a real app, uses Next/Image */}
-                            <span className="text-sm font-semibold text-gray-400 group-hover:text-[#121576] transition-colors text-center">
-                                {partner}
-                            </span>
+                        <div key={index} className="aspect-video flex items-center justify-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-[#121576]/20 transition-colors group relative">
+                             <div className="relative w-full h-full">
+                                <Image 
+                                    src={partner.src} 
+                                    alt={partner.name}
+                                    fill
+                                    className="object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-70 group-hover:opacity-100"
+                                />
+                             </div>
                         </div>
                     ))}
                 </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
