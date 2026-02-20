@@ -31,15 +31,21 @@ export function DevicesHeroSection() {
           </div>
 
           <div className="relative order-1 lg:order-2">
-            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50 aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500 bg-slate-100">
-               <Image
-                  src="/images/devices-hero.png"
-                  alt="RPM and CCM Devices"
-                  fill
-                  className="object-cover"
-                  priority
-               />
-               <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay pointer-events-none"></div>
+            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50 aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500 bg-white">
+               <div className="absolute inset-0 flex items-center justify-center p-6 sm:p-10 gap-4 sm:gap-8 z-10">
+                  <div className="flex flex-col gap-4 sm:gap-8 justify-center h-full w-1/2">
+                    <div className="relative h-1/2 w-full flex items-center justify-center">
+                      <Image src="/images/OneTouch.png" alt="Charms Blood Glucose Monitor" width={200} height={200} className="object-contain drop-shadow-xl hover:scale-110 transition-transform duration-500 max-h-full" />
+                    </div>
+                    <div className="relative h-1/2 w-full flex items-center justify-center">
+                      <Image src="/images/WeightScale.png" alt="Charms Weight Scale" width={240} height={240} className="object-contain drop-shadow-xl hover:scale-110 transition-transform duration-500 max-h-full" />
+                    </div>
+                  </div>
+                  <div className="w-1/2 h-full flex items-center justify-center">
+                    <Image src="/images/BP2.png" alt="Charms Blood Pressure Monitor" width={300} height={300} className="object-contain drop-shadow-2xl hover:scale-110 transition-transform duration-500 max-h-[80%]" />
+                  </div>
+               </div>
+               <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-transparent mix-blend-overlay pointer-events-none"></div>
             </div>
 
             {/* Decorative Background Shapes */}
