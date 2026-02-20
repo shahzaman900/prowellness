@@ -58,7 +58,7 @@ export function ComprehensiveSolutionsSection() {
                 </Link>
 
                 {/* Card 3: By Condition */}
-                <Link href="/programs/condition" className="group">
+                <Link href="/programs/conditions" className="group">
                     <div className="bg-[#F36076] rounded-xl h-64 flex flex-col justify-between p-8 transition-transform transform group-hover:-translate-y-2 shadow-lg hover:shadow-2xl relative overflow-hidden">
                         <div className="z-10 bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center backdrop-blur-sm">
                              <HeartPulse className="text-white h-6 w-6" />
