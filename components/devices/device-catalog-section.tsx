@@ -7,12 +7,12 @@ export function DeviceCatalogSection() {
   const devices = [
     {
       title: "Blood Pressure Monitor",
-      image: "/images/device-bp-monitor.png",
+      image: "/images/BP2.png",
       alt: "Digital Blood Pressure Monitor"
     },
     {
       title: "Blood Glucose Monitor",
-      image: "/images/device-glucose-monitor.png",
+      image: "/images/OneTouch.png",
       alt: "Digital Blood Glucose Monitor"
     },
     {
@@ -22,7 +22,7 @@ export function DeviceCatalogSection() {
     },
     {
       title: "Weight Scale",
-      image: "/images/device-scale.png",
+      image: "/images/WeightScale.png",
       alt: "Digital Weight Scale"
     }
   ]
