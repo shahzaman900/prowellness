@@ -173,15 +173,6 @@ export function SiteHeader() {
             </NavigationMenu>
             
             <Link
-              href="https://web-app.prowellcare.com/test/login"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-secondary text-primary"
-            >
-              PORTAL
-            </Link>
-
-            <Link
               href="/contact"
               className={cn(
                 "transition-colors hover:text-secondary",
@@ -201,6 +192,14 @@ export function SiteHeader() {
             </Link>
           </nav>
           <div className="flex items-center space-x-2">
+            <Link
+              href="https://web-app.prowellcare.com/test/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex transition-all bg-[#F36076] hover:bg-[#F36076]/90 text-white border border-[#F36076]/20 px-5 py-2.5 rounded-sm shadow-sm font-bold tracking-widest uppercase items-center justify-center mr-2"
+            >
+              PORTAL
+            </Link>
             <Button 
                 onClick={() => setIsDemoModalOpen(true)}
                 className="hidden md:flex rounded-sm px-8 py-6 font-bold tracking-widest uppercase bg-secondary hover:bg-secondary/90 text-white shadow-md hover:shadow-lg transition-all"
@@ -317,15 +316,6 @@ export function SiteHeader() {
                 </Accordion>
 
                 <Link
-                    href="https://web-app.prowellcare.com/test/login"
-                    target="_blank"
-                    className="text-lg font-bold uppercase tracking-wider text-primary border-b border-gray-100 pb-4"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                >
-                    PORTAL
-                </Link>
-
-                <Link
                     href="/contact"
                     className={cn(
                         "text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4",
@@ -347,15 +337,25 @@ export function SiteHeader() {
                     News & Updates
                 </Link>
 
-                <Button 
-                    onClick={() => {
-                        setIsMobileMenuOpen(false);
-                        setIsDemoModalOpen(true);
-                    }}
-                    className="w-full rounded-sm px-8 py-6 font-bold tracking-widest uppercase bg-secondary hover:bg-secondary/90 text-white shadow-md hover:shadow-lg transition-all mt-4"
-                >
-                    Request Demo
-                </Button>
+                <div className="flex flex-col gap-3 mt-4">
+                  <Link
+                      href="https://web-app.prowellcare.com/test/login"
+                      target="_blank"
+                      className="w-full text-lg font-bold uppercase tracking-wider text-white bg-[#F36076] border border-[#F36076]/20 rounded-sm px-8 py-6 text-center transition-colors hover:bg-[#F36076]/90 shadow-md"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                      PORTAL
+                  </Link>
+                  <Button 
+                      onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsDemoModalOpen(true);
+                      }}
+                      className="w-full rounded-sm px-8 py-6 font-bold tracking-widest uppercase bg-secondary hover:bg-secondary/90 text-white shadow-md hover:shadow-lg transition-all"
+                  >
+                      Request Demo
+                  </Button>
+                </div>
             </nav>
         </div>
       )}
