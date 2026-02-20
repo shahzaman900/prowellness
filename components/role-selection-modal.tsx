@@ -52,7 +52,7 @@ export function RoleSelectionModal() {
                  <Image src="/prologo.png" alt="Charms Logo" width={220} height={60} className="h-14 w-auto object-contain" priority />
             </div>
             <DialogTitle className="text-3xl md:text-4xl font-extrabold font-sans mb-3 text-[#121576] tracking-tight relative z-10">
-                Welcome to Charms
+                Welcome to ProWellCare
             </DialogTitle>
             <DialogDescription className="text-slate-500 text-lg max-w-lg mx-auto relative z-10 font-medium">
                 Please select your role below to be navigated to the appropriate experience.
