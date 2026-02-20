@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
               We want to be transparent and honest about how we handle your Personal Data. In this Privacy Policy, we explain what kind of information we collect from you, why and how we use it, how we protect it, and what rights you have over it. This Privacy Policy does not cover how we collect, use, and share your Personal Data when you use our Platform or Mobile Application.
             </p>
             <p>
-              If you want to know more about how we use and share your Personal Data, please contact our Security Officer at (email).
+              If you want to know more about how we use and share your Personal Data, please contact our Security Officer at (info@prowellcare.com).
             </p>
   
             <h3>Third-Party Sites and Services</h3>
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
   
             <h3>Contact Us</h3>
             <p>
-              If you have any questions or concerns about this Privacy Policy, please do not hesitate to contact us at <a href="mailto:privacy@chirpm.com" className="text-[#F36076] hover:underline">privacy@chirpm.com</a>. We appreciate your feedback.
+              If you have any questions or concerns about this Privacy Policy, please do not hesitate to contact us at <a href="mailto:info@prowellcare.com" className="text-[#F36076] hover:underline">info@prowellcare.com</a>. We appreciate your feedback.
             </p>
   
             <hr className="my-12 border-gray-200" />
