@@ -18,6 +18,10 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "ProactiveWellness Care",
   description: "Value-Based Care Excellence Starts with RPM & CCM Patient Oversight.",
+    icons: {
+    icon: '/prologo.png', // Or the path to wherever your icon is in the public folder
+    apple: '/prologo.png',
+  },
 };
 
 import Script from "next/script";
