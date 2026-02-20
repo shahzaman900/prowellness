@@ -50,14 +50,6 @@ export function RequestDemoModal({
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent className='sm:max-w-[600px] p-0 overflow-hidden bg-white border-none shadow-2xl rounded-2xl'>
-        {/* Clean Top-Right Close Button */}
-        <button
-          onClick={() => onOpenChange(false)}
-          className='absolute top-4 right-4 text-slate-400 hover:text-slate-600 hover:bg-slate-100 p-2 rounded-full z-[60] focus:outline-none transition-colors'
-        >
-          <X className='h-5 w-5' />
-        </button>
-
         <div className='flex flex-col h-full'>
           {/* Header section with gradient border and logo */}
           <div className="bg-slate-50 p-8 text-center border-b border-slate-100 relative overflow-hidden">
